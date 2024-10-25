@@ -1,0 +1,12 @@
+.MainPrincipale{
+    display: grid;
+    grid-template-columns: auto 20rem;
+    background-color: #daf9fe;
+    height: 100%;
+}
+.MainDash{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 2rem;
+}

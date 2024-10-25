@@ -1,0 +1,118 @@
+.contenuNav{ 
+    background: var(--bleulinear2);
+}
+
+
+
+.Sidebar{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    transition: all 300ms ease;
+    background: transparent;
+
+}
+
+.logo{
+    position: relative;
+    display: flex;  
+    flex-direction: column;
+    padding-top: 4rem;
+    background: transparent;
+    height: 5rem;
+    font-weight: bold;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    height: 1%;
+}
+
+.logo1{
+    color: var(--white);
+    font-size: 30px;
+}
+.logo1 .point{
+    color: var(--white);
+}
+.logo2{
+    position: absolute;
+    bottom: -10px;
+    right: 46px;
+    font-size: 15px;
+    color: var(--white);
+}
+.menu{
+    position: relative;
+    height: 65%;
+    margin-top: 4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+}
+
+.menuItem{
+    display: flex;
+    align-items: center;
+    margin-left: 2.8rem;
+    text-decoration: none;
+    color: var(--white);
+    background: transparent;
+    gap: 1rem;
+    height: 2.5rem;
+    position: relative;
+    transition: all 300ms ease;
+    font-size: 16px;
+}
+.menuItem1{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    margin-left: 2.8rem;
+    text-decoration: none;
+    color: var(--white);
+    background: transparent;
+    gap: 1rem;
+    height: 2.5rem;
+    transition: all 300ms ease;
+    font-size: 16px;
+}
+.menuItem1:hover{
+    cursor: pointer;
+    gap: 1.5rem;
+}
+
+.menuItem:hover{
+    cursor: pointer;
+}
+
+.active{
+    color: var(--white);
+    background-color: var(--bleubnav);
+    margin-left: 0rem;
+}
+
+.active::before{
+    content: "";
+    width: 8px;
+    height: 100%;
+    background: var(--bleubnav);
+    margin-right: calc(0.5rem);
+}
+
+.notification-badge {
+    background-color: var(--red);
+    border: none;
+    outline: none;
+    color: white;
+    border-radius: 50%;
+    padding: 0.2em 0.6em;
+    margin-left: 10px;
+    font-size: 0.8em;
+}
+/*.menu .menuItem:last-child{
+    position: absolute;
+    bottom: 2rem;
+    width: 100%;
+}*/

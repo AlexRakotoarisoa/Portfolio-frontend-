@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+*{
+  font-family: 'Roboto';
+}
+:root {
+
+  --activenav : #9ec6f1;
+
+  /********** c o u l e u r    du  t e x t e *************/ 
+  --txtwhite : #fff;
+  --txtbleu : #0b427e;
+  --txtbleub : #01366e;
+
+
+/***********************************************/
+  --whitef : #E0E0E0;
+  --whitek : #E0E0E0; /* label bouton directement icone */
+  --white: #fff;
+
+  --blackc :  rgb(0,0,0,0.25);  /***** Utilisé pour hover notification *****/
+  --black1 : rgb(0,0,0,0.1);
+  --black2 : rgb(0,0,0,0.2);
+  --black3 : rgb(0,0,0,0.3); /** a toute les fonds avec blur***/
+  --black4 : rgb(0,0,0,0.4); /*** utilisé pour les boutons sans hover**/
+  --black5 : rgb(0,0,0,0.5); /*** utilisé pour les boutons avec hover */
+  --black6 : rgb(0,0,0,0.6);
+  --black7 : rgb(0,0,0,0.7);
+  --black : black;
+
+  --bleufond : #4f7d85;
+  --bleulinear1 : linear-gradient(150.37deg, /** utilisé pour le fonde de dashboard*/
+    #bce1ff 29.63%,
+    #84c9e0 51.55%,
+    #67c5e2 90.85%);
+  --bleulinear2 : linear-gradient(to bottom, /*** utilisé pour le fond de sidebar et mission, profil*/
+    #014b62 30%,
+    #005c7a 60%,
+    #017a9f 90.85%);
+  --bleu1 : #014b62; /******** pour les fond des boutons sans hover ou autre */
+  --bleu2 : #005c7a;
+  --bleu3 : #017a9f; /******* pour le hover des boutons **/
+  --bleu: #014a9c  ;
+  --bleub : #01366e;
+  --bleubnav : #021b36;  /***** pour le selected dans candidature***/
+
+  --gris : rgb(245, 245, 245, 0.8);
+  --green : #28A745;
+  --redk : #FF4C4C;
+  --red : #ff0000;
+  --orange :  #da8516; 
+}
+
+.App{
+  background: linear-gradient(
+    106.37deg,
+    #e2f1ff 29.63%,
+    #e2f1ff 51.55%,
+    #e2f1ff 90.85%);
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.AppGlass{
+  display: grid;
+  height: 99%;
+  width: 99%;
+  border-radius: 2rem;
+  background-color: var(--glass);
+  overflow: hidden;
+  grid-template-columns: 11rem auto 20rem;
+
+}
+

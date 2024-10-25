@@ -1,0 +1,32 @@
+.App{
+    position: relative;
+    background: var(--bleulinear1);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .route{
+    position: relative;
+  }
+  
+  .AppGlass{
+    position: relative;
+    display: grid;
+    height: 98%;
+    width: 98.8%;
+    border-radius: 10px;
+    overflow: hidden;
+    grid-template-columns: 16rem auto;
+  }
+
+.motion2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute; 
+  right: 0;
+  width: calc(100% - 16rem);
+  height: 100%;
+  z-index: 800;
+}

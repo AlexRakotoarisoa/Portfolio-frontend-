@@ -1,0 +1,10 @@
+.MainStatistique{
+  background-color: #daf9fe;
+  height: 100%;
+}
+.Statistique{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 2rem;
+}
