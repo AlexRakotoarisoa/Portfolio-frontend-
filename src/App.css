@@ -1,22 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 *{
-  font-family: 'Roboto';
+  font-family: 'Roboto', serif;
 }
+
+
 :root {
+  
+/********** c o u l e u r    du  t e x t e *************/ 
+--txtwhite : #fff;
+--txtbleu : #0b427e;
+--txtbleub : #01366e;
 
-  --activenav : #9ec6f1;
-
-  /********** c o u l e u r    du  t e x t e *************/ 
-  --txtwhite : #fff;
-  --txtbleu : #0b427e;
-  --txtbleub : #01366e;
+/********** s i t e ***************/
+--bleusite1 : #014b62 ;
+--bleusite2 :  #005c7a;
+--bleusite3 :   #017a9f;
 
 
 /***********************************************/
   --whitef : #E0E0E0;
   --whitek : #E0E0E0; /* label bouton directement icone */
   --white: #fff;
+
+/****** Bouton Profil ********/
+  --profil : #fff;
+  --whiteprofil : black;
+
+  /********* Bouton Confirmation *******/
+  --confirmation : #4f7d85;
+  --whiteconfirmation : #fff;
 
   --blackc :  rgb(0,0,0,0.25);  /***** Utilisé pour hover notification *****/
   --black1 : rgb(0,0,0,0.1);
@@ -28,7 +41,11 @@
   --black7 : rgb(0,0,0,0.7);
   --black : black;
 
+  --blackformulaire: rgb(0,0,0,0.3);
+
+
   --bleufond : #4f7d85;
+  --bleufondf : #4f7d85;
   --bleulinear1 : linear-gradient(150.37deg, /** utilisé pour le fonde de dashboard*/
     #bce1ff 29.63%,
     #84c9e0 51.55%,
@@ -45,11 +62,61 @@
   --bleubnav : #021b36;  /***** pour le selected dans candidature***/
 
   --gris : rgb(245, 245, 245, 0.8);
-  --green : #28A745;
-  --redk : #FF4C4C;
-  --red : #ff0000;
+  --green : #34A853;
+  --redk : #FF3B30;
+  --red : #FF3B30;
   --orange :  #da8516; 
 }
+
+.day-mode {
+  --whitef : #E0E0E0;
+  --whitek : white; /* label bouton directement icone */
+  --white: #fff;
+
+
+  /********* Bouton Profil *******/
+  --profil : #4f7d85;
+  --whiteprofil : #fff;
+
+  /********* Bouton Confirmation *******/
+  --confirmation : #fff;
+  --whiteconfirmation : #014b62 ;
+
+
+
+  --blackc :  #014b62cc;
+  --black1 :rgb(79, 125, 133, 0.2);
+  --black2 : rgb(79, 125, 133, 0.9);
+  --black3 : rgb(79, 125, 133, 1);
+  --black4 :  rgb(79, 125, 133, 1);
+  --black5 :  rgb(79, 125, 133, 0.8);
+  --black6 :rgb(79, 125, 133, 0.8);
+  --black7 :  rgba(1, 74, 96, 0.702);
+
+  
+  --black : black;
+
+  --blackformulaire: rgb(0,0,0,0.7);
+
+  --bleufond : #fff;
+  --bleulinear1 : #4f7d85;
+  --bleulinear2 : linear-gradient(to bottom,
+    #014b62 30%,
+    #005c7a 60%,
+    #017a9f 90.85%);
+  --bleu1 : rgb(1, 75, 98); 
+  --bleu2 : #005c7a;
+  --bleu3 : #017a9f; 
+  --bleu: #014a9c  ;
+  --bleub : #01366e;
+  --bleubnav : #021b36; 
+  --gris : rgb(156, 156, 156);
+  --green : #34A853;
+  --redk : #FF3B30;
+  --red : #FF3B30;
+  --orange :  #da8516; 
+}
+
 
 .App{
   background: linear-gradient(
@@ -74,3 +141,108 @@
 
 }
 
+.Principale{
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+@media (min-width: 768px) {
+  .text-shadow-md {
+    text-shadow: 1px 1px 1px #00BBFF, -1px -1px 1px #00BBFF, 1px -1px 1px #00BBFF, -1px 1px 1px #00BBFF;
+  }
+
+  .text-gradient-md {
+    background: none !important;
+    -webkit-background-clip: unset !important;
+    -webkit-text-fill-color: unset !important;
+    color: #141C21 !important;
+  }
+}
+
+
+
+
+.scrollbar-hide {
+  scrollbar-width: none; /* Pour Firefox */
+  -ms-overflow-style: none; /* Pour Internet Explorer et Edge */
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none; /* Pour Chrome, Safari et Opera */
+} @keyframes rotateBorder {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.rotating-border {
+  position: absolute;
+  inset: 0;
+  border-radius: 9999px;
+  padding: 4px;
+  background: conic-gradient(
+    from 0deg,
+    #3b82f6,
+    #ef4444,
+    #22c55e,
+    #eab308,
+    #3b82f6
+  );
+  animation: rotateBorder 4s linear infinite;
+  z-index: 0;
+  
+  /* Masque pour ne montrer que la bordure */
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+}
+
+.audio{
+  font-family: "Audiowide", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.audio1{
+  font-family: "Audiowide", sans-serif;
+  font-style: normal;
+}
+
+/* Effet sur la section 1*/
+@keyframes slideIn {
+  0% { opacity: 0; transform: translateY(-20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
+
+.animate-slide-in {
+  animation: slideIn 1s ease-out forwards;
+}
+
+
+@keyframes typewriter {
+  from { width: 0 }
+  to { width: 8ch }
+}
+
+@keyframes blink {
+  50% { border-color: transparent }
+}
+
+.typewriter {
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid white;
+  width: 0;
+  animation:
+    typewriter 3s steps(20) 1s forwards,
+    blink 0.7s step-end infinite;
+}

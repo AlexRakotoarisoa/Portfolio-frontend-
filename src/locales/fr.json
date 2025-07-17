@@ -1,0 +1,65 @@
+{
+  "section1": {
+    "salutation": "Hi !",
+    "prenom": "I'm Alex",
+    "titrePoste": "Développeur Full-stack",
+    "descriptionPoste": "Je conçois des applications performantes, intuitives et adaptées aux besoins réels, de la maquette au déploiement."
+  },
+  "section2": {
+    "grandTitre": "CE QUE JE PEUX FAIRE",
+    "titre1": "DÉVELOPPEMENT D'APPLICATIONS",
+    "description1": "Je développe des applications efficaces et adaptées aux besoins de chaque projet.",
+    "titre2": "CONCEPTION UI/UX",
+    "description2": "Je conçois des interfaces claires et agréables à utiliser, en mettant l’accent sur l’expérience utilisateur.",
+    "titre3": "DESIGN DE LOGO",
+    "description3": "Je crée des logos uniques et mémorables qui reflètent l’identité et les valeurs d’un projet ou d’une marque."
+  },
+  "section3": {
+    "grandTitre": "MES PROJETS",
+    "titreProjet" : "MES PROJETS DE DÉVELOPPEMENT",
+    "projet1": "APPLICATION DE GESTION DES OFFRES D’EMPLOI ET DES CANDIDATURES.",
+    "projet2": "APPLICATION INTUITIVE DE GESTION DES CONGÉS POUR LES EMPLOYÉS.",
+    "projet3": "APPLICATION DE GESTION DE NOTES DES ÉTUDIANTS.",
+    "projet4": "MOM PORTFOLIO.",
+    "titreLogo": "MES CRÉATIONS DE LOGOS",
+    "logo1": "Le logo de la Chorale Archange Tsaramandroso, sur fond bleu roi (Gendarmerie et spiritualité), présente une estrade boisée. Une note de musique rouge et des ailes dorées symbolisent la pureté et l'élévation. Il unit foi, musique et engagement.",
+    "logo2": "Le logo d’Antsa Fiderana Ambohidreny, sur fond blanc, est encerclé par le nom de la chorale. Au centre, les lettres stylisées \"AFA\" en rouge, intégrées à une note de musique, symbolisent la louange et l’harmonie. Des portées musicales en arrière-plan renforcent le thème musical. Une citation biblique en malgache ancre la chorale dans sa foi.",
+    "logo3": "Le logo de Hainkintana pour son 10ᵉ anniversaire, une proposition pour un concours non retenue, représente un \"10\" stylisé sur fond étoilé : un télescope forme le \"1\", et la Terre représente le \"0\". Le nom \"Hainkintana\" et \"Astronomy Association\" sont inclus. Ce design évoque l’astronomie, la découverte et la célébration de cette décennie.",
+    "logo4": "Le logo \"Clash mode\", pour une page de vente en ligne, est un cercle noir avec une bordure doré. Il met en scène un sac de courses symbolisant le shopping. Le nom \"Clash\" (dérivé du nom de la vendeuse) et \"mode\" qui évoquent une mode dynamique, tendance et accessible.",
+    "logo5": "Le logo AE est inspiré de mes initiales, Alex Emilien. Ses lignes simples et inclinées reflètent ma personnalité : dynamique, créative et tournée vers l’avenir. Il représente mon identité visuelle en tant que développeur et designer."
+  },
+  "section4": {
+    "grandTitre": "MES COMPÉTENCES",
+    "competence1": "Langages de programmation",
+    "competence2": "Frameworks & bibliothèques",
+    "competence3": "Bases de données",
+    "competence4": "Outils de design & prototypage"
+  },
+  "section6": {
+    "grandTitre": "CERTIFICATIONS",
+    "c1": "Rédaction web – Orange Digital Center, Fianarantsoa",
+    "c2": "Participation à un concours de logo – Association Hainkintana"
+  },
+  "sectionx": {
+    "grandTitre": "MES EXPÉRIENCES",
+    "t11": "AUDITS EXPERTISES ET CONTRÔLES",
+    "t12": "Août 2024 – Novembre 2024",
+    "t13": "Conception et réalisation d’une plateforme de gestion des candidatures et des offres d’emploi.",
+    "t21": "DIRECTION RÉGIONALE DE L’AGRICULTURE ET DE L’ÉLEVAGE",
+    "t22": "Août 2023 – Novembre 2023",
+    "t23": "Conception et réalisation d’une application desktop de gestion des congés du personnel de l’organisme.",
+    "t31": "ÉCOLE NATIONALE D’INFORMATIQUE",
+    "t32": "Mai 2022",
+    "t33": "Conception et réalisation d’une application de gestion de notes d’étudiants."
+  },
+  "nav": {
+    "nav1": "Accueil",
+    "nav2": "Compétences",
+    "nav3": "Expériences",
+    "nav4": "Projets",
+    "nav5" : "Contact"
+  },
+  "footer": {
+    "copy": "© 2025 Rakotoarisoa Alex Emilien | Tous droits réservés."
+  }
+}

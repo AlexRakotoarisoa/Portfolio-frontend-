@@ -1,0 +1,65 @@
+{
+  "section1": {
+    "salutation": "Hi !",
+    "prenom": "I'm Alex",
+    "titrePoste": "Full-stack Developer",
+    "descriptionPoste": "I design high-performance, user-friendly applications tailored to real needs – from wireframes to deployment."
+  },
+  "section2": {
+    "grandTitre": "WHAT I CAN DO",
+    "titre1": "APP DEVELOPMENT",
+    "description1": "I build efficient and customized applications to meet the needs of every project.",
+    "titre2": "UI/UX DESIGN",
+    "description2": "I create clear, user-friendly interfaces with a strong focus on user experience.",
+    "titre3": "LOGO DESIGN",
+    "description3": "I design unique and memorable logos that reflect the identity and values of a project or brand."
+  },
+  "section3": {
+    "grandTitre": "MY PROJECTS",
+    "titreProjet" : "MY DEVELOPMENT PROJECTS",
+    "projet1": "JOB OFFERS AND CANDIDATE MANAGEMENT APPLICATION.",
+    "projet2": "INTUITIVE LEAVE MANAGEMENT APPLICATION FOR EMPLOYEES.",
+    "projet3": "STUDENT GRADE MANAGEMENT APPLICATION.",
+    "projet4": "MY PORTFOLIO.",
+    "titreLogo": "MY LOGO DESIGNS",
+    "logo1": "The logo for Chorale Archange Tsaramandroso, on a royal blue background (symbolizing gendarmerie and spirituality), features a wooden stage. A red music note and golden wings represent purity and elevation. It unites faith, music, and commitment.",
+    "logo2": "The logo for Antsa Fiderana Ambohidreny, on a white background, is encircled by the choir’s name. In the center, the stylized letters “AFA” in red, merged with a music note, symbolize praise and harmony. Musical staves in the background reinforce the musical theme. A Bible quote in Malagasy grounds the choir in faith.",
+    "logo3": "The Hainkintana logo for its 10th anniversary – an unselected contest proposal – features a stylized \"10\" on a starry background: a telescope forms the \"1\", and Earth represents the \"0\". The words \"Hainkintana\" and \"Astronomy Association\" are included. This design evokes astronomy, discovery, and celebration of the decade.",
+    "logo4": "The \"Clash mode\" logo, for an online sales page, is a black circle with a gold border. It features a shopping bag symbolizing shopping. The name \"Clash\" (derived from the seller's name) and \"mode\" evoke dynamic, trendy, and accessible fashion.",
+    "logo5": "The AE logo is inspired by my initials, Alex Emilien. Its clean, slanted lines reflect my personality: dynamic, creative, and forward-thinking. It represents my visual identity as a developer and designer."
+  },
+  "section4": {
+    "grandTitre": "MY SKILLS",
+    "competence1": "Programming Languages",
+    "competence2": "Frameworks & Libraries",
+    "competence3": "Databases",
+    "competence4": "Design & Prototyping Tools"
+  },
+  "section6": {
+    "grandTitre": "CERTIFICATIONS",
+    "c1": "Web Writing – Orange Digital Center, Fianarantsoa",
+    "c2": "Participation in a Logo Design Contest – Hainkintana Association"
+  },
+  "sectionx": {
+    "grandTitre": "MY EXPERIENCES",
+    "t11": "AUDITS EXPERTISES ET CONTRÔLES",
+    "t12": "August 2024 – November 2024",
+    "t13": "Design and development of a platform for job offers and candidate management.",
+    "t21": "REGIONAL DEPARTMENT OF AGRICULTURE AND LIVESTOCK",
+    "t22": "August 2023 – November 2023",
+    "t23": "Design and development of a desktop application for employee leave management.",
+    "t31": "ÉCOLE NATIONALE D’INFORMATIQUE",
+    "t32": "May 2022",
+    "t33": "Design and development of a student grade management application."
+  },
+  "nav": {
+    "nav1": "Home",
+    "nav2": "Skills",
+    "nav3": "Experience",
+    "nav4": "Projects",
+    "nav5" : "Contact"
+  },
+  "footer": {
+    "copy": "© 2025 Rakotoarisoa Alex Emilien | All rights reserved."
+  }
+}

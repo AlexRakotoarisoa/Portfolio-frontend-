@@ -21,26 +21,25 @@ export const SideBarData = [
         icon : UilBriefcase ,
         heading : "Offre",
         path : "/",
-    },
-    {
-        icon : UilBell,
-        heading : "Notifications",
-        path : "/notification",
+        color: "#4A90E2",
     },
     {
         icon : UilUsersAlt ,
         heading : "Candidature",
         path : "/candidat",
+        color: "#34A853",
     },
     {
         icon : UilArchive,
         heading : "Archive",
         path : "/archive",
+        color: "#6C757D",
     },
     {
         icon : UilChart,
         heading : "Statistique",
         path : "/statistique",
+        color: "#6F42C1",
     },
 ]
 
@@ -92,7 +91,23 @@ export const CardsData = [
                 data: [10, 25, 15, 30, 12, 15, 20],
             },
         ],
-    }
+    },
+    {
+        title: "Sales",
+        color: {
+            backGround: "linear-gradient(180deg, #bb67ff 0%, #c484f3 100%)",  // Corrigé
+            boxShadow: "0px 10px 20px 0px #e0c6f5"
+        },
+        barValue: 70,
+        value: "25,970",
+        png: UilUsdSquare,
+        series: [
+            {
+                name: "Manahona",
+                data: [21, 70, 18, 32, 509, 300],
+            },
+        ],
+    },
 ];
 
 
@@ -162,3 +177,11 @@ export const TeamData = [
     },
     
 ];
+
+/*
+{
+        icon : UilBell,
+        heading : "Notifications",
+        path : "/notification",
+        color: "#FF3B30",
+    },*/
