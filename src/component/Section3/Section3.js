@@ -12,7 +12,7 @@ import Pr4 from '../../img/Pr4.jpg'
 import AL from '../../img/AL.png'
 import AL1 from '../../img/AL1.png'
 import Ombre from '../../img/Ombre.png'
-import { FaFigma, FaJava, FaJs, FaPython, FaPhp, FaReact, FaNodeJs, FaCode, FaImage } from "react-icons/fa";
+import { FaFigma, FaJava, FaJs, FaPython, FaPhp, FaReact, FaNodeJs, FaCode, FaImage,FaExternalLinkAlt } from "react-icons/fa";
 import { PiFileCSharp } from "react-icons/pi";
 import { BiLogoTypescript, BiLogoPostgresql } from "react-icons/bi";
 import { SiDjango, SiTailwindcss, SiMongodb, SiAdobephotoshop, SiAdobeillustrator, SiReact } from "react-icons/si";
@@ -48,7 +48,7 @@ const Section3 = ({ openModal }) => {
                                <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
                               <img src={Pr1}/>
                                <button onClick={() => openModal('projet1')} className='absolute flex items-center justify-center gap-2 z-20 bottom-[48px] right-[-100px] w-[100px] h-[25px]  bg-[white] rounded-[10px] text-[14px] group-hover:right-2 transition-all duration-200 ease-in'>Visualiser <FaImage/></button>
-                              <button className='absolute flex gap-2 items-center justify-center z-20 bottom-4 right-[-100px] w-[100px] h-[25px]  bg-[white] rounded-[10px] text-[14px] group-hover:right-2 transition-all duration-250 delay-150 ease-in'>Code <FaCode/></button>  
+                              <button onClick={() => window.open("https://github.com/AlexRakotoarisoa/AEC-frontend", "_blank")} className='absolute flex gap-2 items-center justify-center z-20 bottom-4 right-[-100px] w-[100px] h-[25px]  bg-[white] rounded-[10px] text-[14px] group-hover:right-2 transition-all duration-250 delay-150 ease-in'>Code <FaCode/></button>  
                           </div>
                           <div className=' text-[white] text-[14px] pt-[20px] h-[140px] w-[100%]'> 
                              <p className='font-semibold text-[16px]'>{t('section3.projet1')}</p>
@@ -69,7 +69,7 @@ const Section3 = ({ openModal }) => {
                                <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
                               <img src={Pr2}/>
                                <button onClick={() => openModal('projet2')} className='absolute flex items-center justify-center gap-2 z-20 bottom-[48px] right-[-100px] w-[100px] h-[25px]  bg-[white] rounded-[10px] text-[14px] group-hover:right-2 transition-all duration-200 ease-in'>Visualiser <FaImage/></button>
-                              <button className='absolute flex gap-2 items-center justify-center z-20 bottom-4 right-[-100px] w-[100px] h-[25px]  bg-[white] rounded-[10px] text-[14px] group-hover:right-2 transition-all duration-250 delay-150 ease-in'>Code <FaCode/></button>  
+                              <button onClick={() => window.open("https://github.com/AlexRakotoarisoa/Code_source_java_stageL2", "_blank")} className='absolute flex gap-2 items-center justify-center z-20 bottom-4 right-[-100px] w-[100px] h-[25px]  bg-[white] rounded-[10px] text-[14px] group-hover:right-2 transition-all duration-250 delay-150 ease-in'>Code <FaCode/></button>  
                           </div>
                           <div className=' text-[white] text-[14px] pt-[20px] h-[140px] w-[100%]'> 
                              <p className='font-semibold text-[16px]'>{t('section3.projet2')}</p>
@@ -86,7 +86,7 @@ const Section3 = ({ openModal }) => {
                                <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
                               <img src={Pr3}/>
                               <button onClick={() => openModal('projet3')} className='absolute flex items-center justify-center gap-2 z-20 bottom-[48px] right-[-100px] w-[100px] h-[25px]  bg-[white] rounded-[10px] text-[14px] group-hover:right-2 transition-all duration-200 ease-in'>Visualiser <FaImage/></button>
-                              <button className='absolute flex gap-2 items-center justify-center z-20 bottom-4 right-[-100px] w-[100px] h-[25px]  bg-[white] rounded-[10px] text-[14px] group-hover:right-2 transition-all duration-250 delay-150 ease-in'>Code <FaCode/></button>  
+                              <button onClick={() => window.open("https://github.com/AlexRakotoarisoa/Gestion_etudiant_nodeJS", "_blank")} className='absolute flex gap-2 items-center justify-center z-20 bottom-4 right-[-100px] w-[100px] h-[25px]  bg-[white] rounded-[10px] text-[14px] group-hover:right-2 transition-all duration-250 delay-150 ease-in'>Code <FaCode/></button>  
                           </div>
                           <div className=' text-[white] text-[14px] pt-[20px] h-[140px] w-[100%]'> 
                              <p className='font-semibold text-[16px]'>{t('section3.projet3')}</p>
@@ -106,7 +106,7 @@ const Section3 = ({ openModal }) => {
                            <div className='relative w-full h-full group overflow-hidden'>
                                <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
                               <img src={Pr4}/>
-                              <button className='absolute flex gap-2 items-center justify-center z-20 bottom-4 right-[-100px] w-[100px] h-[25px]  bg-[white] rounded-[10px] text-[14px] group-hover:right-2 transition-all duration-250 delay-150 ease-in'>Code <FaCode/></button>  
+                              <button onClick={() => window.open("https://github.com/AlexRakotoarisoa/Portfolio-frontend-", "_blank")} className='absolute flex gap-2 items-center justify-center z-20 bottom-4 right-[-100px] w-[100px] h-[25px]  bg-[white] rounded-[10px] text-[14px] group-hover:right-2 transition-all duration-250 delay-150 ease-in'>Code <FaCode/></button>  
                           </div>
                           <div className=' text-[white] text-[14px] pt-[20px] h-[140px] w-[100%]'> 
                              <p className='font-semibold text-[16px]'>{t('section3.projet4')}</p>
