@@ -1,5 +1,4 @@
 import React, { useEffect, useRef, useState } from 'react'
-import Diagonale from '../../img/Diagonale.png';
 import { FaFigma, FaJava, FaJs, FaPython, FaPhp, FaReact } from "react-icons/fa";
 import { PiFileCSharp } from "react-icons/pi";
 import { BiLogoTypescript, BiLogoPostgresql } from "react-icons/bi";
