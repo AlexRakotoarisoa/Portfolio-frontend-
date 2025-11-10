@@ -21,7 +21,7 @@ const NavPortfolio = ({ scrollToSection, section1Ref, section4Ref, sectionXRef, 
   return (
     <div className='fixed flex items-center z-40 justify-between z-20
       left-1/2 -translate-x-1/2
-      mt-[10px] 
+      mt-[20px] 
       md:mt-0
       rounded-[15px] 
       md:rounded-none
@@ -36,11 +36,11 @@ const NavPortfolio = ({ scrollToSection, section1Ref, section4Ref, sectionXRef, 
       
 
       <div className='hidden md:flex items-center pl-[40px]'>
-        <img src={AL} alt='MyLogo' width={35} height={35} />
+        <img src={AL} alt='MyLogo' width={45} height={35} />
       </div>
 
       <div className='md:hidden z-20 flex items-center pl-[20px] md:pl-[40px]'>
-        <img src={AL1} alt='MyLogo' width={30} height={30} />
+        <img src={AL1} alt='MyLogo' width={40} height={30} />
       </div>
        <AnimatePresence>
           {menuOpen && (

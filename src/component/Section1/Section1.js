@@ -12,7 +12,7 @@ const Section1 = () => {
 
   return (
       <div className="flex items-center justify-center w-screen h-[100vh]">
-          <div className='flex flex-col-reverse items-center md:grid md:items-center md:justify-center md:grid-cols-2 w-[85%] h-[80%] md:mt-[50px] mt-[10px]'>
+          <div className='flex flex-col-reverse items-center md:grid md:items-center md:justify-center md:grid-cols-2 w-[85%] h-[80%] md:mt-[50px] mt-[100px]'>
 
                 <div 
                 className='flex flex-col items-center justify-center gap-6 w-[90%] md:w-[100%] h-[100%] md:pl-[30px]'
@@ -28,7 +28,7 @@ const Section1 = () => {
                 }}>
 
                     <div className="flex flex-col">
-                        <div className='flex items-center md:items-start flex-col gap-y-0'>
+                        <div className='flex items-center mt-[4vh] md:mt-[0px] md:items-start flex-col gap-y-0'>
                             <p className='audio text-white text-[8vw] md:text-start md:text-[60px] m-0 p-0'>
                                 {t('section1.salutation')}
                             </p>
@@ -38,42 +38,43 @@ const Section1 = () => {
                             </div>
                         </div>
                     </div>
-                    <div className=' text-[4vw] md:text-[20px] text-[#00BBFF] w-[85%] mt-[1vh] md:mt-[16px]'>   
+                    <div className=' text-center text-[7vw] w-[100%] text-[#00BBFF] md:text-start md:text-[20px]  md:w-[85%] mt-[1vh] md:mt-[16px]'>   
                          {t('section1.titrePoste')}
                     </div>  
-                    <div className='relative text-justify'>
-                        <p className='text-white text-[4vw] md:text-[15px]'> {t('section1.descriptionPoste')}<a href={cv} download="CV_Rakotoarisoa_Alex.pdf"> <span className='absolute bottom-[-6px] ml-[5px] bg-white text-black px-[10px] text-[14px] py-[5px] rounded-[7px]'>Télécharger CV</span></a> </p>
-                        
+                    <div className='relative text-justify]'>
+                        <p className='hidden text-white text-[4vw] md:block md:text-[15px]'> {t('section1.descriptionPoste')} </p>
                     </div>
-                    <div>
+
+                    <div className='w-[100%] flex items-center justify-center gap-[40px] mt-[20px] md:gap-[0px] md:justify-between md:w-[80%] md:mt-[30px] '>
                       <motion.div 
-                      className='flex  items-centerv mt-[30px] justify-between gap-[1px] right-0 w-[190px] h-[50px]'>
+                      className='flex  items-center  justify-between gap-[1px]  right-0 w-[160px] md:w-[190px]'>
                         <a href="https://www.facebook.com/alex.emilien.2025" target="_blank" rel="noopener noreferrer">    
                         <button >
-                            <FaFacebook size={30} color='#fff'/>
+                            <FaFacebook  className='text-[30px] md:text-[30px]'color='#fff'/>
                         </button>
                         </a>
                         <a href="https://mg.linkedin.com/in/alex-rakotoarisoa-705283281" target="_blank" rel="noopener noreferrer">  
                         <button >
-                          <FaLinkedin size={30} color='#fff'/>
+                          <FaLinkedin className='text-[30px] md:text-[30px]' color='#fff'/>
                         </button>
                         </a>
                         <a href="mailto:ton.rakotoarisoaalex27@gmail.com">
                         <button>
-                          <FaEnvelope size={30} color='#fff'/>
+                          <FaEnvelope className='text-[30px] md:text-[30px]' color='#fff'/>
                         </button>
                         </a>
                         <a href="tel:+261344989880" className='md:hidden'>  
                         <button >
-                          <FaPhoneAlt data-zoom size={30} color='#fff'/>
+                          <FaPhoneAlt data-zoom className='text-[30px] md:text-[30px]' color='#fff'/>
                         </button >
                         </a>
                         <a href="https://github.com/AlexRakotoarisoa" className='hidden md:block'>
                         <button >
-                          <FaGithub data-zoom size={30} color='#fff'/>
+                          <FaGithub data-zoom className='text-[30px] md:text-[30px]' color='#fff'/>
                         </button >
                         </a>
                     </motion.div>
+                     <a href={cv} download="CV_Rakotoarisoa_Alex.pdf"> <span className='bg-white text-black px-[15px] py-[9px] text-[15px] h-[50px] rounded-[7px]'>Télécharger CV</span></a>
               </div>
               </motion.div>
               </div>
@@ -85,7 +86,7 @@ const Section1 = () => {
                 delay: 1,    
                 duration: 2,
               }}>
-                          <img src={Cercle} alt='Cercle' className="h-[35vh] md:h-[450px]"/>
+                          <img src={Cercle} alt='Cercle' className="h-[35vh] md:h-[400px]"/>
               </motion.div>
               
             </div>

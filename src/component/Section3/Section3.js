@@ -194,7 +194,7 @@ const Section3 = ({ openModal }) => {
                         </div>
                         <div className='h-[160px] w-[160px] md:h-[250px] md:w-[250px] rounded-[10px] overflow-hidden'>
                             <div className='flex items-center justify-center  w-[100%] h-[100%]'>
-                                <img src={AL} className='w-[120px] md:w-[190px] md:h-[190px]'/>
+                                <img src={AL} className='w-[150px] md:w-[220px] md:h-[190px]'/>
                             </div>
                         </div>
                       </div>
