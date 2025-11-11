@@ -38,14 +38,14 @@ const Section1 = () => {
                             </div>
                         </div>
                     </div>
-                    <div className=' text-center text-[7vw] w-[100%] text-[#00BBFF] md:text-start md:text-[20px]  md:w-[85%] mt-[1vh] md:mt-[16px]'>   
+                    <div className=' text-center text-[6vw] w-[100%] text-[#00BBFF] md:text-start md:text-[20px]  md:w-[85%] mt-[0.5vh] md:mt-[16px]'>   
                          {t('section1.titrePoste')}
                     </div>  
                     <div className='relative text-justify]'>
                         <p className='hidden text-white text-[4vw] md:block md:text-[15px]'> {t('section1.descriptionPoste')} </p>
                     </div>
 
-                    <div className='w-[100%] flex items-center justify-center gap-[40px] mt-[20px] md:gap-[0px] md:justify-between md:w-[80%] md:mt-[30px] '>
+                    <div className='w-[100%] flex items-center justify-center gap-[40px] mt-[10px] md:gap-[0px] md:justify-between md:w-[80%] md:mt-[30px] '>
                       <motion.div 
                       className='flex  items-center  justify-between gap-[1px]  right-0 w-[160px] md:w-[190px]'>
                         <a href="https://www.facebook.com/alex.emilien.2025" target="_blank" rel="noopener noreferrer">    
