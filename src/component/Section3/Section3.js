@@ -45,7 +45,7 @@ const Section3 = ({ openModal }) => {
                       <div className=' h-[auto] w-[350px] rounded-[10px] overflow-hidden'>
                           <div className='relative w-full h-full group overflow-hidden'>
                                <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
-                              <img src={Pr1}/>
+                              <img src={Pr1} alt='Site AEC'/>
                                <button onClick={() => openModal('projet1')} className='absolute flex items-center justify-center gap-2 z-20 bottom-[48px] right-[-100px] w-[100px] h-[25px]  bg-[white] rounded-[10px] text-[14px] group-hover:right-2 transition-all duration-200 ease-in'>Visualiser <FaImage/></button>
                               <button onClick={() => window.open("https://github.com/AlexRakotoarisoa/AEC-frontend", "_blank")} className='absolute flex gap-2 items-center justify-center z-20 bottom-4 right-[-100px] w-[100px] h-[25px]  bg-[white] rounded-[10px] text-[14px] group-hover:right-2 transition-all duration-250 delay-150 ease-in'>Code <FaCode/></button>  
                           </div>
@@ -66,7 +66,7 @@ const Section3 = ({ openModal }) => {
                       <div className='h-[auto] w-[350px] rounded-[10px] overflow-hidden'>
                             <div className='relative w-full h-full group overflow-hidden'>
                                <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
-                              <img src={Pr2}/>
+                              <img src={Pr2} alt='Application DRAE'/>
                                <button onClick={() => openModal('projet2')} className='absolute flex items-center justify-center gap-2 z-20 bottom-[48px] right-[-100px] w-[100px] h-[25px]  bg-[white] rounded-[10px] text-[14px] group-hover:right-2 transition-all duration-200 ease-in'>Visualiser <FaImage/></button>
                               <button onClick={() => window.open("https://github.com/AlexRakotoarisoa/Code_source_java_stageL2", "_blank")} className='absolute flex gap-2 items-center justify-center z-20 bottom-4 right-[-100px] w-[100px] h-[25px]  bg-[white] rounded-[10px] text-[14px] group-hover:right-2 transition-all duration-250 delay-150 ease-in'>Code <FaCode/></button>  
                           </div>
@@ -83,7 +83,7 @@ const Section3 = ({ openModal }) => {
                       <div className='h-[auto] w-[350px] rounded-[10px] overflow-hidden'>
                            <div className='relative w-full h-full group overflow-hidden'>
                                <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
-                              <img src={Pr3}/>
+                              <img src={Pr3} alt='Plateforme Etudiant'/>
                               <button onClick={() => openModal('projet3')} className='absolute flex items-center justify-center gap-2 z-20 bottom-[48px] right-[-100px] w-[100px] h-[25px]  bg-[white] rounded-[10px] text-[14px] group-hover:right-2 transition-all duration-200 ease-in'>Visualiser <FaImage/></button>
                               <button onClick={() => window.open("https://github.com/AlexRakotoarisoa/Gestion_etudiant_nodeJS", "_blank")} className='absolute flex gap-2 items-center justify-center z-20 bottom-4 right-[-100px] w-[100px] h-[25px]  bg-[white] rounded-[10px] text-[14px] group-hover:right-2 transition-all duration-250 delay-150 ease-in'>Code <FaCode/></button>  
                           </div>
@@ -104,7 +104,7 @@ const Section3 = ({ openModal }) => {
                     <div className='h-[auto] w-[350px] rounded-[10px] overflow-hidden'>
                            <div className='relative w-full h-full group overflow-hidden'>
                                <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
-                              <img src={Pr4}/>
+                              <img src={Pr4} alt='Portfolio'/>
                               <button onClick={() => window.open("https://github.com/AlexRakotoarisoa/Portfolio-frontend-", "_blank")} className='absolute flex gap-2 items-center justify-center z-20 bottom-4 right-[-100px] w-[100px] h-[25px]  bg-[white] rounded-[10px] text-[14px] group-hover:right-2 transition-all duration-250 delay-150 ease-in'>Code <FaCode/></button>  
                           </div>
                           <div className=' text-[white] text-[14px] pt-[20px] h-[140px] w-[100%]'> 
