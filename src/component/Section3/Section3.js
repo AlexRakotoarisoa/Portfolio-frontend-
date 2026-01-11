@@ -7,6 +7,7 @@ import Pr1 from '../../img/Pr1.jpg'
 import Pr2 from '../../img/Pr2.jpg'
 import Pr3 from '../../img/Pr3.jpg'
 import Pr4 from '../../img/Pr4.jpg'
+import Pr5 from '../../img/Pr5.png'
 
 import AL from '../../img/AL.png'
 import AL1 from '../../img/AL1.png'
@@ -63,6 +64,7 @@ const Section3 = ({ openModal }) => {
                              </div>
                           </div>
                       </div>
+
                       <div className='h-[auto] w-[350px] rounded-[10px] overflow-hidden'>
                             <div className='relative w-full h-full group overflow-hidden'>
                                <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
@@ -80,6 +82,7 @@ const Section3 = ({ openModal }) => {
                              </div>
                           </div>
                       </div>
+
                       <div className='h-[auto] w-[350px] rounded-[10px] overflow-hidden'>
                            <div className='relative w-full h-full group overflow-hidden'>
                                <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
@@ -101,6 +104,7 @@ const Section3 = ({ openModal }) => {
                              </div>
                           </div>
                       </div>
+
                     <div className='h-[auto] w-[350px] rounded-[10px] overflow-hidden'>
                            <div className='relative w-full h-full group overflow-hidden'>
                                <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
@@ -125,6 +129,25 @@ const Section3 = ({ openModal }) => {
                              </div>
                           </div>
                       </div>
+
+                        <div className='h-[auto] w-[350px] rounded-[10px] overflow-hidden'>
+                            <div className='relative w-full h-full group overflow-hidden'>
+                               <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
+                              <img src={Pr5} alt='Application Chorale'/>
+                               <button onClick={() => openModal('projet5')} className='absolute flex items-center justify-center gap-2 z-20 bottom-[48px] right-[-100px] w-[100px] h-[25px]  bg-[white] rounded-[10px] text-[14px] group-hover:right-2 transition-all duration-200 ease-in'>Visualiser <FaImage/></button>
+                              <button onClick={() => window.open("https://github.com/AlexRakotoarisoa/chorale_app", "_blank")} className='absolute flex gap-2 items-center justify-center z-20 bottom-4 right-[-100px] w-[100px] h-[25px]  bg-[white] rounded-[10px] text-[14px] group-hover:right-2 transition-all duration-250 delay-150 ease-in'>Code <FaCode/></button>  
+                          </div>
+                          <div className=' text-[white] text-[14px] pt-[20px] h-[140px] w-[100%]'> 
+                             <p className='font-semibold text-[16px]'>{t('section3.projet5')}</p>
+                             <div className='flex gap-3'> 
+                                <div className='flex items-center justify-center border-[#076766] rounded-[10px] w-[100px] py-[3px] border-[1.5px] mt-[10px] gap-3'>
+                                    <p>Java</p>
+                                    <FaJava/>
+                                  </div>    
+                             </div>
+                          </div>
+                      </div>
+
                   </div>
                 <div className='text-[20px] text-white mt-[50px]' >{t('section3.titreLogo')}</div>
                 <div className='h-auto items-center grid grid-cols-2 gap-x-[30px] md:grid-cols-4 gap-y-10 md:gap-x-[55px] mt-[60px]'>
