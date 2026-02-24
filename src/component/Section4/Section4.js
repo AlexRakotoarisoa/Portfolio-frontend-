@@ -3,7 +3,7 @@ import { FaFigma, FaJava, FaJs, FaPython, FaPhp, FaReact, FaLock,  FaShieldAlt, 
 import { PiFileCSharp } from "react-icons/pi";
 import { BiLogoTypescript, BiLogoPostgresql, BiNetworkChart } from "react-icons/bi";
 import { SiDjango, SiTailwindcss, SiMongodb, SiAdobephotoshop, SiAdobeillustrator, SiSuricata, SiElasticsearch } from "react-icons/si";
-import { FiShield, FiKey } from "react-icons/fi";
+import { FiKey } from "react-icons/fi";
 import { TbBrandMysql } from "react-icons/tb";
 import { motion } from "framer-motion";
 import { useTranslation } from 'react-i18next';

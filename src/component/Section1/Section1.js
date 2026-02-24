@@ -1,6 +1,5 @@
 import React from 'react'
 import Cercle from '../../img/Poo.png'
-import { FcAddColumn } from "react-icons/fc";
 import { FaFacebook, FaLinkedin, FaEnvelope, FaPhoneAlt, FaBars, FaGithub   } from 'react-icons/fa';
 import { motion } from "framer-motion";
 import { useTranslation } from 'react-i18next';

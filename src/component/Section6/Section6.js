@@ -16,6 +16,7 @@ const Section6 = () => {
       {selectedCertif && (
         <div className='  flex items-center justify-center inset-0 z-50 bg-black/50 backdrop-blur-lg fixed'>
             <img
+              alt=''
               src={selectedCertif === 'c1' ? Certificat1 : Certificat2}
               className='w-[95vw] md:w-[60vw] relative rounded-[3px]'
             />

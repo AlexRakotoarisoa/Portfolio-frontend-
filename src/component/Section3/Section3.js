@@ -10,13 +10,9 @@ import Pr4 from '../../img/Pr4.jpg'
 import Pr5 from '../../img/Pr5.png'
 
 import AL from '../../img/AL.png'
-import AL1 from '../../img/AL1.png'
 import Ombre from '../../img/Ombre.png'
-import { FaFigma, FaJava, FaJs, FaPython, FaPhp, FaReact, FaNodeJs, FaCode, FaImage,FaExternalLinkAlt } from "react-icons/fa";
-import { PiFileCSharp } from "react-icons/pi";
-import { BiLogoTypescript, BiLogoPostgresql } from "react-icons/bi";
-import { SiDjango, SiTailwindcss, SiMongodb, SiAdobephotoshop, SiAdobeillustrator, SiReact } from "react-icons/si";
-import { TbBrandMysql } from "react-icons/tb";
+import { FaFigma, FaJava, FaJs, FaReact, FaNodeJs, FaCode, FaImage } from "react-icons/fa";
+import { SiDjango, SiTailwindcss, SiReact } from "react-icons/si";
 import { motion } from "framer-motion";
 import { useTranslation } from 'react-i18next';
 
@@ -157,11 +153,11 @@ const Section3 = ({ openModal }) => {
                             <div className='w-[50px] rounded-full h-[2px] mt-5 bg-white'></div>
                         </div>
                         <div className='absolute w-[100%] flex justify-center bottom-0 z-10'>
-                               <img src={Ombre} className='w-[75%] '/>
+                               <img src={Ombre} alt='' className='w-[75%] '/>
                             </div>
                         <div className='h-[160px] w-[160px] md:h-[250px] md:w-[250px] rounded-[10px] overflow-hidden'>
                             <div className='flex items-center justify-center  w-[100%] h-[100%]'>
-                                <img src={Archange} className='w-[150px] md:w-[220px] md:h-[220px]'/>
+                                <img src={Archange} alt='' className='w-[150px] md:w-[220px] md:h-[220px]'/>
                             </div>
                         </div>
                       </div>
@@ -172,11 +168,11 @@ const Section3 = ({ openModal }) => {
                             <div className='w-[50px] rounded-full h-[2px] mt-5 bg-white'></div>
                         </div>
                         <div className='absolute bottom-0 flex justify-center z-10'>
-                               <img src={Ombre} className='w-[75%]'/>
+                               <img alt='' src={Ombre} className='w-[75%]'/>
                             </div>
                         <div className='h-[160px] w-[160px] md:h-[250px] md:w-[250px] rounded-[10px] overflow-hidden'>
                             <div className='flex items-center justify-center  w-[100%] h-[100%]'>
-                                <img src={Afa} className='w-[150px] md:w-[220px] md:h-[220px]'/>
+                                <img alt='' src={Afa} className='w-[150px] md:w-[220px] md:h-[220px]'/>
                             </div>
                         </div>
                       </div>
@@ -187,11 +183,11 @@ const Section3 = ({ openModal }) => {
                             <div className='w-[50px] rounded-full h-[2px] mt-5 bg-white'></div>
                         </div>
                         <div className='absolute bottom-0 flex justify-center z-10'>
-                               <img src={Ombre} className='w-[75%]'/>
+                               <img alt='' src={Ombre} className='w-[75%]'/>
                             </div>
                         <div className='h-[160px] w-[160px] md:h-[250px] md:w-[250px] rounded-[10px] overflow-hidden'>
                             <div className='flex items-center  justify-center  w-[100%] h-[100%]'>
-                                <img src={Astr} className='w-[150px] md:w-[220px] md:h-[220px]'/>
+                                <img alt='' src={Astr} className='w-[150px] md:w-[220px] md:h-[220px]'/>
                             </div>
                         </div>
                       </div>
@@ -202,11 +198,11 @@ const Section3 = ({ openModal }) => {
                             <div className='w-[50px] rounded-full h-[2px] mt-5 bg-white'></div>
                         </div>
                         <div className='absolute bottom-0 flex justify-center z-10'>
-                               <img src={Ombre} className='w-[75%]'/>
+                               <img alt='' src={Ombre} className='w-[75%]'/>
                             </div>
                         <div className='h-[160px] w-[160px] md:h-[250px] md:w-[250px] rounded-[10px] overflow-hidden'>
                             <div className='flex items-center justify-center  w-[100%] h-[100%]'>
-                                <img src={Cla} className='w-[150px] md:w-[220px] md:h-[220px]'/>
+                                <img alt='' src={Cla} className='w-[150px] md:w-[220px] md:h-[220px]'/>
                             </div>
                         </div>
                       </div>
@@ -217,7 +213,7 @@ const Section3 = ({ openModal }) => {
                         </div>
                         <div className='h-[160px] w-[160px] md:h-[250px] md:w-[250px] rounded-[10px] overflow-hidden'>
                             <div className='flex items-center justify-center  w-[100%] h-[100%]'>
-                                <img src={AL} className='w-[150px] md:w-[220px] md:h-[190px]'/>
+                                <img alt='' src={AL} className='w-[150px] md:w-[220px] md:h-[190px]'/>
                             </div>
                         </div>
                       </div>
