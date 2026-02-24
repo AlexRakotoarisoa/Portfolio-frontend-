@@ -1,20 +1,7 @@
-import MobileAnimation from '../MobileAnimation';
-import { useTranslation } from 'react-i18next';
+
 
 const About = () => {
-  const { t } = useTranslation();
   const cv = 'images/Alex.pdf';
-
-  const isMobile = MobileAnimation(); // ✅ détecte si l'écran est petit
-
-  const motionProps = isMobile
-    ? {
-        initial: { opacity: 0, y: 50 },
-        whileInView: { opacity: 1, y: 0 },
-        transition: { duration: 0.8, ease: "easeOut" },
-        viewport: { once: true, amount: 0.3 },
-      }
-    : {};
 
   return (
         <div className='flex justify-center items-center gap-5 h-[480px] w-full md:h-[450px]  md:mt-[50px]'>

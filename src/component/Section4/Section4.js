@@ -32,19 +32,6 @@ const Section4 = () => {
     return () => clearInterval(interval);
   }, [hovered]);
 
-  const orbitSkills = [
-    { name: "JS", icon: <FaJs size={20} /> },
-    { name: "React", icon: <FaReact size={20} /> },
-    { name: "Python", icon: <FaPython size={20} /> },
-    { name: "PHP", icon: <FaPhp size={20} /> },
-    { name: "Tailwind", icon: <SiTailwindcss size={20} /> },
-    { name: "MongoDB", icon: <SiMongodb size={20} /> },
-    { name: "MySQL", icon: <TbBrandMysql size={20} /> },
-    { name: "PostgreSQL", icon: <BiLogoPostgresql size={20} /> },
-    { name: "Figma", icon: <FaFigma size={20} /> },
-    { name: "PS", icon: <SiAdobephotoshop size={20} /> },
-    { name: "AI", icon: <SiAdobeillustrator size={20} /> },
-  ];
 
   return (
     <div id="s4">
