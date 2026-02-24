@@ -37,7 +37,7 @@ const Section1 = () => {
                             </div>
                         </div>
                     </div>
-                    <div className=' text-center text-[6vw] w-[100%] text-[#00BBFF] md:text-start md:text-[20px]  md:w-[85%] mt-[0.5vh] md:mt-[16px]'>   
+                    <div className=' text-center text-[4vw] w-[100%] text-[#00BBFF] md:text-start md:text-[20px]  md:w-[85%] mt-[0.5vh] md:mt-[16px]'>   
                          {t('section1.titrePoste')}
                     </div>  
                     <div className='relative text-justify]'>
