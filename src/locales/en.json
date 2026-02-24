@@ -2,15 +2,15 @@
   "section1": {
     "salutation": "Hi !",
     "prenom": "I'm Alex",
-    "titrePoste": "Full-stack Developer",
+    "titrePoste": "Application Developer | Cybersecurity Enthusiast",
     "descriptionPoste": "I design high-performance, user-friendly applications tailored to real needs – from wireframes to deployment."
   },
   "section2": {
     "grandTitre": "WHAT I CAN DO",
     "titre1": "APP DEVELOPMENT",
     "description1": "I build efficient and customized applications to meet the needs of every project.",
-    "titre2": "UI/UX DESIGN",
-    "description2": "I create clear, user-friendly interfaces with a strong focus on user experience.",
+    "titre2": "SECURITY & BEST PRACTICES",
+    "description2": "Passionate about cybersecurity, I apply secure development practices to create robust and secure applications.",
     "titre3": "LOGO DESIGN",
     "description3": "I design unique and memorable logos that reflect the identity and values of a project or brand."
   },
@@ -34,7 +34,8 @@
     "competence1": "Programming Languages",
     "competence2": "Frameworks & Libraries",
     "competence3": "Databases",
-    "competence4": "Design & Prototyping Tools"
+    "competence4": "Design & Prototyping Tools",
+    "competence5": "Cybersecurity & Networks"
   },
   "section6": {
     "grandTitre": "CERTIFICATIONS",
@@ -43,6 +44,12 @@
   },
   "sectionx": {
     "grandTitre": "MY EXPERIENCES",
+    "t01": "ÉCOLE NATIONALE D’INFORMATIQUE",
+    "t02": "Year 2025",
+    "t03": "Design and development of an Android mobile application for choir sheet music management, facilitating organization, sharing, and rehearsal optimization.",
+    "t011": "ÉCOLE NATIONALE D’INFORMATIQUE",
+    "t022": "Year 2025",
+    "t033": "Implementation of an ISO/IEC 27001-compliant cybersecurity system integrating Suricata, Elastic Stack, TheHive, and Microsoft Defender, including Active Directory attack simulations (Mimikatz).",
     "t11": "AUDITS EXPERTISES ET CONTRÔLES",
     "t12": "August 2024 – November 2024",
     "t13": "Design and development of a platform for job offers and candidate management.",

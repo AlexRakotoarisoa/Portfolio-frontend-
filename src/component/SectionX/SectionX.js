@@ -8,7 +8,7 @@ import { useTranslation } from 'react-i18next';
 const SectionX = () => {
   const { t } = useTranslation();
   return (
-    <div id="sx" className='flex items-center justify-between flex-col h-auto w-[100%] bg-[#141C21] pb-[50px] pt-[20px]'>
+    <div id="sx" className='flex items-center justify-between flex-col h-auto w-[100%] bg-[#141C21] pb-[50px] md:pt-[20px]'>
         <div className='w-[90%]'>
             <div className='text-[22px] text-white audio'>{t('sectionx.grandTitre')}</div>
             <motion.div 
@@ -23,13 +23,87 @@ const SectionX = () => {
             ></motion.div>       
         </div>
 
-        <div className='grid grid-cols-1 md:grid-cols-2 ml-[40px] md:ml-0 w-[90%] h-auto mt-[40px] md:mt-[80px]'>
+        <div className='grid grid-cols-1 ml-[40px] h-auto mt-[40px] w-[90%] md:grid-cols-2 md:ml-0 md:mt-[80px]'>
+
 
           <div className='flex items-center justify-center'>
-            <div className='flex items-center border-l-[1px] w-[500px] md:h-[250px] h-[220px]'>
-
+            <div className='flex items-center border-l-[1px] w-full h-[260px] md:h-[260px]'>
               <motion.div 
-              className='relative w-[100%] h-[80%] px-[20px] md:px-[50px]' 
+              className='relative w-[100%] h-[80%] px-[20px] md:px-[30px]' 
+              initial={{ y: 50, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{
+              delay :0.7,
+              duration: 1.2,
+              ease: "easeOut"
+            }}
+            viewport={{ once: true }}>
+              <div className='absolute left-[-11px] top-0  text-white'>
+                  <IoIosRadioButtonOn size={20}/>
+                </div>
+                <div>
+                 <p className='text-[17px] md:text-[20px] text-white'>{t('sectionx.t01')}</p>
+                 <p className='md:text-[15px] text-[gray] mt-[12px]'>{t('sectionx.t02')}</p>
+                 <p className='md:text-[15px] text-[white] mt-[12px]'>{t('sectionx.t03')}</p>
+                 <div className='flex gap-3 text-[white]'> 
+                  <div className='flex items-center justify-center border rounded-[10px] w-[100px] py-[3px] border-[white] mt-[10px] gap-3'>
+                    <p>Java</p>
+                  </div>
+                  <div className='flex items-center justify-center border rounded-[10px] w-[100px] py-[3px] border-[white] mt-[10px] gap-3'>
+                    <p>NodeJS</p>
+                  </div>
+                  <div className='flex items-center justify-center border rounded-[10px] w-[100px] py-[3px] border-[white] mt-[10px] gap-3'>
+                    <p>MySQL</p>
+                  </div>
+                  <div className='flex items-center justify-center border rounded-[10px] w-[100px] py-[3px] border-[white] mt-[10px] gap-3'>
+                    <p>Room</p>
+                  </div>
+                </div>
+                </div>
+              </motion.div>
+            </div>
+          </div>
+
+          <div className='flex items-center justify-center'>
+            <div className='flex items-center border-l-[1px] w-full h-[340px] md:h-[260px]'>
+              <motion.div 
+              className='relative w-[100%] h-[80%] px-[20px] md:px-[30px]' 
+              initial={{ y: 50, opacity: 0 }}
+              whileInView={{ y: 0, opacity: 1 }}
+              transition={{
+              delay :0.7,
+              duration: 1.2,
+              ease: "easeOut"
+            }}
+            viewport={{ once: true }}>
+              <div className='absolute left-[-11px] top-0  text-white'>
+                  <IoIosRadioButtonOn size={20}/>
+                </div>
+                <div>
+                 <p className='text-[17px] md:text-[20px] text-white'>{t('sectionx.t011')}</p>
+                 <p className='md:text-[15px] text-[gray] mt-[12px]'>{t('sectionx.t022')}</p>
+                 <p className='md:text-[15px] text-[white] mt-[12px]'>{t('sectionx.t033')}</p>
+                 <div className='flex gap-3 text-[white]'> 
+                  <div className='flex items-center justify-center border rounded-[10px] w-[100px] py-[3px] border-[white] mt-[10px] gap-3'>
+                    <p>IDS/IPS</p>
+                  </div>
+                  <div className='flex items-center justify-center border rounded-[10px] w-[100px] py-[3px] border-[white] mt-[10px] gap-3'>
+                    <p>Suricata</p>
+                  </div>
+                  <div className='flex items-center justify-center border rounded-[10px] w-[100px] py-[3px] border-[white] mt-[10px] gap-3'>
+                    <p>ELK</p>
+                  </div>
+                </div>
+                </div>
+              </motion.div>
+            </div>
+          </div>
+
+
+          <div className='flex items-center justify-center'>
+            <div className='flex items-center border-l-[1px] w-full md:h-[260px] h-[230px]'>
+              <motion.div 
+              className='relative w-[100%] h-[80%] px-[20px] md:px-[30px]' 
                   initial={{ y: 50, opacity: 0 }}
                   whileInView={{ y: 0, opacity: 1 }}
                   transition={{
@@ -61,9 +135,9 @@ const SectionX = () => {
           </div>
 
           <div className='flex items-center justify-center'>
-            <div className='flex items-center border-l-[1px] w-[500px] h-[250px]'>
+            <div className='flex items-center border-l-[1px] w-full h-[270px]'>
               <motion.div 
-              className='relative w-[100%] h-[80%] px-[20px] md:px-[50px]' 
+              className='relative w-[100%] h-[80%] px-[20px] md:px-[30px]' 
               initial={{ y: 50, opacity: 0 }}
                   whileInView={{ y: 0, opacity: 1 }}
                   transition={{
@@ -88,10 +162,12 @@ const SectionX = () => {
               </motion.div>
             </div>
           </div>
+
+
           <div className='flex items-center justify-center'>
-            <div className='flex items-center border-l-[1px] w-[500px] h-[220px] md:h-[250px]'>
+            <div className='flex items-center border-l-[1px] w-full h-[250px] md:h-[260px]'>
               <motion.div 
-              className='relative w-[100%] h-[80%] px-[20px] md:px-[50px]' 
+              className='relative w-[100%] h-[80%] px-[20px] md:px-[30px]' 
               initial={{ y: 50, opacity: 0 }}
               whileInView={{ y: 0, opacity: 1 }}
               transition={{

@@ -2,15 +2,15 @@
   "section1": {
     "salutation": "Hi !",
     "prenom": "I'm Alex",
-    "titrePoste": "Développeur Full-stack",
+    "titrePoste": "Développeur d'applications | Intéressé par la Cybersécurité",
     "descriptionPoste": "Je conçois des applications performantes, intuitives et adaptées aux besoins réels, de la maquette au déploiement."
   },
   "section2": {
     "grandTitre": "CE QUE JE PEUX FAIRE",
     "titre1": "DÉVELOPPEMENT D'APPLICATIONS",
     "description1": "Je développe des applications efficaces et adaptées aux besoins de chaque projet.",
-    "titre2": "CONCEPTION UI/UX",
-    "description2": "Je conçois des interfaces claires et agréables à utiliser, en mettant l’accent sur l’expérience utilisateur.",
+    "titre2": "SECURITE ET BONNE PRATIQUE",
+    "description2": "Je m’intéresse à la cybersécurité et intègre des pratiques de développement sécurisé pour des applications fiables et protégées.",
     "titre3": "DESIGN DE LOGO",
     "description3": "Je crée des logos uniques et mémorables qui reflètent l’identité et les valeurs d’un projet ou d’une marque."
   },
@@ -34,7 +34,9 @@
     "competence1": "Langages de programmation",
     "competence2": "Frameworks & bibliothèques",
     "competence3": "Bases de données",
-    "competence4": "Outils de design & prototypage"
+    "competence4": "Outils de design & prototypage",
+    "competence5": "Cybersécurité & Réseaux"
+    
   },
   "section6": {
     "grandTitre": "CERTIFICATIONS",
@@ -43,6 +45,12 @@
   },
   "sectionx": {
     "grandTitre": "MES EXPÉRIENCES",
+    "t01": "ÉCOLE NATIONALE D’INFORMATIQUE",
+    "t02": "Année 2025",
+    "t03": "Conception et développement d’une application mobile Android pour la gestion des partitions d’une chorale, facilitant l’organisation, le partage et l’optimisation des répétitions.",
+     "t011": "ÉCOLE NATIONALE D’INFORMATIQUE",
+    "t022": "Année 2025",
+    "t033": "Implémentation d’un système de cybersécurité conforme ISO/IEC 27001 intégrant Suricata, Elastic Stack, TheHive et Microsoft Defender, avec simulations d’attaques Active Directory (Mimikatz).",
     "t11": "AUDITS EXPERTISES ET CONTRÔLES",
     "t12": "Août 2024 – Novembre 2024",
     "t13": "Conception et réalisation d’une plateforme de gestion des candidatures et des offres d’emploi.",

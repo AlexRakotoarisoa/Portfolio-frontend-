@@ -1,8 +1,9 @@
 import React, { useEffect, useRef, useState } from 'react'
-import { FaFigma, FaJava, FaJs, FaPython, FaPhp, FaReact } from "react-icons/fa";
+import { FaFigma, FaJava, FaJs, FaPython, FaPhp, FaReact, FaLock,  FaShieldAlt, FaServer, FaNetworkWired, FaKey, FaNodeJs } from "react-icons/fa";
 import { PiFileCSharp } from "react-icons/pi";
-import { BiLogoTypescript, BiLogoPostgresql } from "react-icons/bi";
-import { SiDjango, SiTailwindcss, SiMongodb, SiAdobephotoshop, SiAdobeillustrator } from "react-icons/si";
+import { BiLogoTypescript, BiLogoPostgresql, BiNetworkChart } from "react-icons/bi";
+import { SiDjango, SiTailwindcss, SiMongodb, SiAdobephotoshop, SiAdobeillustrator, SiSuricata, SiElasticsearch } from "react-icons/si";
+import { FiShield, FiKey } from "react-icons/fi";
 import { TbBrandMysql } from "react-icons/tb";
 import { motion } from "framer-motion";
 import { useTranslation } from 'react-i18next';
@@ -48,7 +49,7 @@ const Section4 = () => {
   return (
     <div id="s4">
       {/*Section 4*/}
-      <div className='relative text-[white] flex h-auto items-center flex-col bg-[#141C21] w-[100%] md:pt-[80px] pt-[30px] overflow-hidden'>
+      <div className='relative text-[white] flex h-auto items-center flex-col pt-[20px] bg-[#141C21] w-[100%] md:pt-[80px] pt-[30px] overflow-hidden'>
 
         <div className='w-[90%]'>
           <div className='text-[22px] text-white audio'>{t('section4.grandTitre')}</div>
@@ -64,33 +65,13 @@ const Section4 = () => {
           ></motion.div>
         </div>
 
-        {/* Orbit Animation 
-        <div
-          className="relative w-[300px] h-[300px] mx-auto my-10"
-          onMouseEnter={() => setHovered(true)}
-          onMouseLeave={() => setHovered(false)}
-        >
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2" ref={orbitRef}>
-            {orbitSkills.map((skill, i) => (
-              <div
-                key={i}
-                className="absolute w-[60px] h-[60px] flex flex-col items-center justify-center text-white border border-white rounded-full text-xs bg-[#1E2A33] shadow-lg"
-              >
-                {skill.icon}
-                <span className="text-[10px] mt-1">{skill.name}</span>
-              </div>
-            ))}
-          </div>
-        </div>
-*/}
-
-        <div className='flex justify-center md:justify-end w-screen pt-[10px] md:pt-[20px] z-10'>
-          <div className='grid grid-cols-1 z-10 w-[90%] md:grid-cols-2 md:w-[80%] md:h-auto p-[40px] pb-[0px] gap-y-10 mb-[50px]'>
+        <div className='flex justify-center md:justify-center w-screen pt-[10px] md:pt-[20px] z-10'>
+          <div className='grid grid-cols-1 z-10 w-[100%] md:grid-cols-2 md:w-[90%] md:h-auto p-[40px] pb-[0px] gap-10 mb-[50px]'>
 
             {/* Langages */}
             <div >
               <h1 >{t('section4.competence1')}</h1>
-              <div className='flex mt-[30px] gap-4 text-[15px]'>
+              <div className='flex mt-[20px] gap-4 text-[15px]'>
                 <div className='flex items-center justify-center border rounded-[20px] w-[100px] py-[3px] border-[white] mt-[10px] gap-2'>
                   <p>Java</p><FaJava />
                 </div>
@@ -117,12 +98,15 @@ const Section4 = () => {
             {/* Frameworks */}
             <div>
               <h1>{t('section4.competence2')}</h1>
-              <div className='flex mt-[30px] gap-4 text-[15px]'>
+              <div className='flex mt-[20px] gap-4 text-[15px]'>
                 <div className='flex items-center justify-center border rounded-[20px] w-[120px] py-[3px] border-[white] mt-[10px] gap-3'>
                   <p>ReactJS</p><FaReact />
                 </div>
                 <div className='flex items-center justify-center border rounded-[20px] w-[120px] py-[3px] border-[white] mt-[10px] gap-3'>
                   <p>Django</p><SiDjango />
+                </div>
+                <div className='flex items-center justify-center border rounded-[20px] w-[120px] py-[3px] border-[white] mt-[10px] gap-3'>
+                  <p>NodeJS</p><FaNodeJs/>
                 </div>
               </div>
               <div className='flex items-center justify-center border rounded-[20px] w-[150px] py-[3px] border-[white] mt-[10px] gap-3'>
@@ -133,7 +117,7 @@ const Section4 = () => {
             {/* Bases de données */}
             <div>
               {t('section4.competence3')}
-              <div className='flex mt-[30px] gap-4 text-[15px]'>
+              <div className='flex mt-[20px] gap-4 text-[15px]'>
                 <div className='flex items-center justify-center border rounded-[20px] w-[120px] py-[3px] border-[white] mt-[10px] gap-3'>
                   <p>MySQL</p><TbBrandMysql />
                 </div>
@@ -149,7 +133,7 @@ const Section4 = () => {
             {/* Design */}
             <div >
               {t('section4.competence4')}
-              <div className='flex mt-[30px] gap-4 text-[15px]'>
+              <div className='flex mt-[20px] gap-4 text-[15px]'>
                 <div className='flex items-center justify-center border rounded-[20px] w-[180px] py-[3px] border-[white] mt-[10px] gap-3'>
                   <p>Adobe Photoshop</p><SiAdobephotoshop />
                 </div>
@@ -162,6 +146,36 @@ const Section4 = () => {
               </div>
             </div>
 
+            {/* Cybersécurité & Réseaux */}
+            <div>
+            {t('section4.competence5')}
+            <div className='flex flex-wrap mt-[20px] gap-x-4 text-[15px]'>
+                <div className='flex items-center justify-center border rounded-[20px] w-[150px] py-[3px] border-[white] mt-[10px] gap-3'>
+                   <p>Suricata</p><FaShieldAlt />
+                </div>
+                <div className='flex items-center justify-center border rounded-[20px] w-[120px] py-[3px] border-[white] mt-[10px] gap-3'>
+                 <p>ELK Stack</p><FaServer />
+                </div>
+                <div className='flex items-center justify-center border rounded-[20px] w-[120px] py-[3px] border-[white] mt-[10px] gap-3'>
+                 <p>IDS / IPS</p><FaShieldAlt />
+                </div>
+                <div className='flex items-center justify-center border rounded-[20px] w-[120px] py-[3px] border-[white] mt-[10px] gap-3'>
+                 <p>Pare-feu</p><FaNetworkWired />
+                </div>
+                <div className='flex items-center justify-center border rounded-[20px] w-[100px] py-[3px] border-[white] mt-[10px] gap-3'>
+                   <p>VPN</p><FaKey />
+                </div>
+                <div className='flex items-center justify-center border rounded-[20px] w-[150px] py-[3px] border-[white] mt-[10px] gap-3'>
+                  <p>Auth & Authz</p><FiKey />
+                </div>
+                <div className='flex items-center justify-center border rounded-[20px] w-[180px] py-[3px] border-[white] mt-[10px] gap-3'>
+                  <p>TCP/IP, DNS, DHCP</p><BiNetworkChart />
+                </div>
+              </div>
+            </div>
+            <div>
+
+            </div>
           </div>
         </div>
       </div>

@@ -9,6 +9,7 @@ import SectionX from '../SectionX/SectionX';
 import Section6 from '../Section6/Section6';
 import InterfaceImage from '../InterfaceImage/InterfaceImage';
 import { useTranslation } from 'react-i18next';
+import About from '../About/About';
 // !!! Supprimez l'import de { Element } de 'react-scroll' car nous n'utilisons plus cette lib pour le scroll !!!
 // import { Element } from 'react-scroll';
 
@@ -176,10 +177,10 @@ const Portfolio = () => {
           section3Ref={section3Ref}
           section5Ref={section5Ref}
         />
-
         <div ref={section1Ref}>
           <Section1 />
         </div>
+          <About/>
         <Section2 />
         <div ref={section4Ref}>
           <Section4 />

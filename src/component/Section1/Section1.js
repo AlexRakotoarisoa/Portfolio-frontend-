@@ -42,7 +42,7 @@ const Section1 = () => {
                          {t('section1.titrePoste')}
                     </div>  
                     <div className='relative text-justify]'>
-                        <p className='hidden text-white text-[4vw] md:block md:text-[15px]'> {t('section1.descriptionPoste')} </p>
+                        <p className='hidden text-white text-[4vw] md:hidden md:text-[15px]'> {t('section1.descriptionPoste')} </p>
                     </div>
 
                     <div className='w-[100%] flex items-center justify-center gap-[40px] mt-[10px] md:gap-[0px] md:justify-between md:w-[80%] md:mt-[30px] '>
@@ -74,10 +74,11 @@ const Section1 = () => {
                         </button >
                         </a>
                     </motion.div>
-                     <a href={cv} download="CV_Rakotoarisoa_Alex.pdf"> <span className='bg-white text-black px-[15px] py-[9px] text-[15px] h-[50px] rounded-[7px]'>Télécharger CV</span></a>
+                     <a href={cv} download="CV_Rakotoarisoa_Alex.pdf" className='hidden'> <span className='bg-white text-black px-[15px] py-[9px] text-[15px] h-[50px] rounded-[7px]'>Télécharger CV</span></a>
               </div>
               </motion.div>
               </div>
+
               <motion.div 
               className='relative flex items-center justify-center md:justify-end w-[90vw] h-[40vh] md:w-[100%] md:h-[100%]'
               initial={{ scale: 0.8, opacity: 0 }}
