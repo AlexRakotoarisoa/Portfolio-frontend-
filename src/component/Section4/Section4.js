@@ -1,8 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react'
-import { FaFigma, FaJava, FaJs, FaPython, FaPhp, FaReact, FaLock,  FaShieldAlt, FaServer, FaNetworkWired, FaKey, FaNodeJs } from "react-icons/fa";
+import { FaFigma, FaJava, FaJs, FaPython, FaPhp, FaReact,  FaShieldAlt, FaServer, FaNetworkWired, FaKey, FaNodeJs } from "react-icons/fa";
 import { PiFileCSharp } from "react-icons/pi";
 import { BiLogoTypescript, BiLogoPostgresql, BiNetworkChart } from "react-icons/bi";
-import { SiDjango, SiTailwindcss, SiMongodb, SiAdobephotoshop, SiAdobeillustrator, SiSuricata, SiElasticsearch } from "react-icons/si";
+import { SiDjango, SiTailwindcss, SiMongodb, SiAdobephotoshop, SiAdobeillustrator} from "react-icons/si";
 import { FiKey } from "react-icons/fi";
 import { TbBrandMysql } from "react-icons/tb";
 import { motion } from "framer-motion";
@@ -10,7 +10,7 @@ import { useTranslation } from 'react-i18next';
 
 const Section4 = () => {
   const orbitRef = useRef(null);
-  const [hovered, setHovered] = useState(false);
+  const hovered = useState(false);
    const { t } = useTranslation();
 
   useEffect(() => {

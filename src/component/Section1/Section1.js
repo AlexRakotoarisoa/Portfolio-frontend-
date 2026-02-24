@@ -1,7 +1,7 @@
 import React from 'react'
 import Cercle from '../../img/Poo.png'
-import { FaFacebook, FaLinkedin, FaEnvelope, FaPhoneAlt, FaBars, FaGithub   } from 'react-icons/fa';
-import { motion } from "framer-motion";
+import { FaFacebook, FaLinkedin, FaEnvelope, FaPhoneAlt, FaGithub   } from 'react-icons/fa';
+import { motion } from "framer-motion"
 import { useTranslation } from 'react-i18next';
 
 
@@ -95,5 +95,3 @@ const Section1 = () => {
 }
 
 export default Section1
-
-{/*className='audio text-[35px] text-center md:mt-[30px] md:text-start md:text-[45px] font-bold p-0 m-0 bg-gradient-to-r from-cyan-500 to-blue-500 bg-clip-text text-transparent text-gradient-md text-shadow-md'*/}

@@ -1,5 +1,4 @@
 import React from 'react'
-import { BiSolidPolygon,BiLogoNetlify  } from "react-icons/bi";
 import { IoIosRadioButtonOn } from "react-icons/io";
 import { motion } from "framer-motion";
 import { useTranslation } from 'react-i18next';

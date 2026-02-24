@@ -1,5 +1,3 @@
-import React from 'react'
-import { motion } from "framer-motion";
 import MobileAnimation from '../MobileAnimation';
 import { useTranslation } from 'react-i18next';
 
