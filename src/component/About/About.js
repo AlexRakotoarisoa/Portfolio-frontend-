@@ -4,7 +4,7 @@ const About = () => {
   const cv = 'images/Alex.pdf';
 
   return (
-        <div className='flex justify-center items-center gap-5 h-[480px] w-full md:h-[450px]  mt-[50px]'>
+        <div className='flex justify-center items-center gap-5 h-[460px] w-full md:h-[450px]  mt-[50px]'>
            <div className='hidden md:block bg-gray-500 w-[70%] h-full rounded-tr-[20px]'>
 
            </div>
