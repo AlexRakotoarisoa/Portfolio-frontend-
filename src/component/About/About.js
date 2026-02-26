@@ -4,14 +4,14 @@ const About = () => {
   const cv = 'images/Alex.pdf';
 
   return (
-        <div className='flex justify-center items-center gap-5 h-[480px] w-full md:h-[450px]  md:mt-[50px]'>
+        <div className='flex justify-center items-center gap-5 h-[480px] w-full md:h-[450px]  mt-[50px]'>
            <div className='hidden md:block bg-gray-500 w-[70%] h-full rounded-tr-[20px]'>
 
            </div>
 
            <div className='flex items-center justify-center w-full h-full'>
             <div className='w-[90%] md:w-[70%] h-full'>
-              <h1 className='text-white text-[25px] mb-10'>A propos de moi</h1>
+              <h1 className='text-white text-[20px] mb-5 md:text-[25px] md:mb-10'>A propos de moi</h1>
               <p class="text-gray-400 leading-8 mb-[30px] md:mb-[80px]" >
               Étudiant en Master 2 Informatique et développeur d’applications web et mobiles, je conçois des solutions performantes, évolutives et centrées sur l’utilisateur. Passionné par la cybersécurité, je m’intéresse aux bonnes pratiques de développement sécurisé et à la protection des systèmes. Mon objectif : combiner développement et sécurité pour créer des applications fiables et sécurisées.
               </p>

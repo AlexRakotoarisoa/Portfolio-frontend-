@@ -20,7 +20,7 @@ const Section2 = () => {
 
   return (
         <div id="s2" className='flex items-center flex-col bg-[linear-gradient(to_top_right,#141C21_55%,#103145_90%)] w-[100%] h-auto '>
-           <div className='w-[90%] mt-[10px] mb-[20px] md:mb-[0px] md:mt-[80px] '>
+           <div className='w-[90%] mt-[10px] mb-[35px] md:mb-[0px] md:mt-[80px] '>
                               <div className='text-[22px] text-white audio'> {t('section2.grandTitre')}</div>
                               <motion.div className='bg-[#00BBFF] h-[3px] w-[95px] mt-[10px] rounded-full'
                               initial={{ width: 0, opacity: 0 }}

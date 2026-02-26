@@ -36,7 +36,7 @@ const Section4 = () => {
   return (
     <div id="s4">
       {/*Section 4*/}
-      <div className='relative text-[white] flex h-auto items-center flex-col pt-[20px] bg-[#141C21] w-[100%] md:pt-[80px] pt-[30px] overflow-hidden'>
+      <div className='relative text-[white] flex h-auto items-center flex-col pt-[90px] bg-[#141C21] w-[100%] md:pt-[80px] pt-[30px] overflow-hidden'>
 
         <div className='w-[90%]'>
           <div className='text-[22px] text-white audio'>{t('section4.grandTitre')}</div>
@@ -52,7 +52,7 @@ const Section4 = () => {
           ></motion.div>
         </div>
 
-        <div className='flex justify-center md:justify-center w-screen pt-[10px] md:pt-[20px] z-10'>
+        <div className='flex justify-center md:justify-center w-screen pt-[0px] md:pt-[20px] z-10'>
           <div className='grid grid-cols-1 z-10 w-[100%] md:grid-cols-2 md:w-[90%] md:h-auto p-[40px] pb-[0px] gap-10 mb-[50px]'>
 
             {/* Langages */}

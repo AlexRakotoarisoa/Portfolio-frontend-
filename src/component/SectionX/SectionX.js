@@ -26,7 +26,7 @@ const SectionX = () => {
 
 
           <div className='flex items-center justify-center'>
-            <div className='flex items-center border-l-[1px] w-full h-[260px] md:h-[260px]'>
+            <div className='flex items-center border-l-[1px] w-full h-[280px] md:h-[260px]'>
               <motion.div 
               className='relative w-[100%] h-[80%] px-[20px] md:px-[30px]' 
               initial={{ y: 50, opacity: 0 }}
@@ -64,7 +64,7 @@ const SectionX = () => {
           </div>
 
           <div className='flex items-center justify-center'>
-            <div className='flex items-center border-l-[1px] w-full h-[340px] md:h-[260px]'>
+            <div className='flex items-center border-l-[1px] w-full h-[300px] md:h-[260px]'>
               <motion.div 
               className='relative w-[100%] h-[80%] px-[20px] md:px-[30px]' 
               initial={{ y: 50, opacity: 0 }}
@@ -164,7 +164,7 @@ const SectionX = () => {
 
 
           <div className='flex items-center justify-center'>
-            <div className='flex items-center border-l-[1px] w-full h-[250px] md:h-[260px]'>
+            <div className='flex items-center border-l-[1px] w-full h-[220px] md:h-[260px]'>
               <motion.div 
               className='relative w-[100%] h-[80%] px-[20px] md:px-[30px]' 
               initial={{ y: 50, opacity: 0 }}
