@@ -1,4 +1,10 @@
 {
+  "about": {
+  "title": "À propos",
+  "role": "Développeur d'applications passionné par la cybersécurité.",
+  "description": "Ce qui m’intéresse dans la cybersécurité, c’est comprendre comment les systèmes fonctionnent et apprendre à mieux les sécuriser. En Master 2, j’ai travaillé sur plusieurs projets autour des infrastructures réseaux, des environnements Active Directory, des laboratoires SOC ainsi que la cryptographie. Mon background en développement me permet aussi d’avoir une vision plus complète entre le code et l’infrastructure.",
+  "cv": "Télécharger CV"
+  },
   "section1": {
     "salutation": "Hi !",
     "prenom": "I'm Alex",
@@ -27,8 +33,29 @@
     "logo2": "Le logo d’Antsa Fiderana Ambohidreny, sur fond blanc, est encerclé par le nom de la chorale. Au centre, les lettres stylisées \"AFA\" en rouge, intégrées à une note de musique, symbolisent la louange et l’harmonie. Des portées musicales en arrière-plan renforcent le thème musical. Une citation biblique en malgache ancre la chorale dans sa foi.",
     "logo3": "Le logo de Hainkintana pour son 10ᵉ anniversaire, une proposition pour un concours non retenue, représente un \"10\" stylisé sur fond étoilé : un télescope forme le \"1\", et la Terre représente le \"0\". Le nom \"Hainkintana\" et \"Astronomy Association\" sont inclus. Ce design évoque l’astronomie, la découverte et la célébration de cette décennie.",
     "logo4": "Le logo \"Clash mode\", pour une page de vente en ligne, est un cercle noir avec une bordure doré. Il met en scène un sac de courses symbolisant le shopping. Le nom \"Clash\" (dérivé du nom de la vendeuse) et \"mode\" qui évoquent une mode dynamique, tendance et accessible.",
-    "logo5": "Le logo AE est inspiré de mes initiales, Alex Emilien. Ses lignes simples et inclinées reflètent ma personnalité : dynamique, créative et tournée vers l’avenir. Il représente mon identité visuelle en tant que développeur et designer."
-  },
+    "logo5": "Le logo AE est inspiré de mes initiales, Alex Emilien. Ses lignes simples et inclinées reflètent ma personnalité : dynamique, créative et tournée vers l’avenir. Il représente mon identité visuelle en tant que développeur et designer.",
+    "cyberTitre": "MES PROJETS CYBERSÉCURITÉ",
+    "cyberSousTitre": "Réalisés en environnement contrôlé — rapports & code disponibles",
+
+    "cyber1Titre": "SIMULATION D'ATTAQUE — REVERSE SHELL",
+    "cyber1Badge": "Sécurité Offensive",
+    "cyber1Description": "Simulation technique d'un Reverse Shell UDP furtif entre Windows et Kali Linux pour analyser les techniques d'intrusion et renforcer la sécurité des systèmes.",
+    "cyber1Action": "Voir rapport",
+
+    "cyber2Titre": "DÉPLOIEMENT D'UN LAB SOC & SIMULATION C2",
+    "cyber2Badge": "Architecture & Détection",
+    "cyber2Description": "Conception d'une infrastructure réseau virtualisée à 3 zones. Simulation d'attaques Active Directory (Sliver C2, Mimikatz) et ingénierie de détection en temps réel (Suricata IDS/IPS, Filebeat, SIEM ElasticStack, TheHive).",
+    "cyber2Action": "Voir configuration",
+
+    "cyber3Titre": "INTERFACE PARE-FEU LÉGÈRE — IPTABLES",
+    "cyber3Badge": "Sécurité Réseau",
+    "cyber3Description": "Développement d'une application de gestion de pare-feu graphique (GUI) sous Linux. Permet l'injection dynamique, la validation stricte (Regex IP) et la suppression de règles iptables en temps réel.",
+    "cyber3Action": "Voir le code",
+
+    "cyber4Titre": "CRYPTOGRAPHIE SYMÉTRIQUE & ASYMÉTRIQUE",
+    "cyber4Badge": "Cryptographie",
+    "cyber4Description": "Implémentation d'algorithmes de chiffrement (AES, RSA). Étude comparative des approches symétrique et asymétrique avec cas d'usage concrets.",
+    "cyber4Action": "En cours"},
   "section4": {
     "grandTitre": "MES COMPÉTENCES",
     "competence1": "Langages de programmation",

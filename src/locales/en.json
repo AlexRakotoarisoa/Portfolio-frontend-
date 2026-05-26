@@ -1,5 +1,10 @@
 {
-  "section1": {
+  "about": {
+  "title": "About",
+  "role": "Application developer passionate about cybersecurity.",
+  "description": "What interests me about cybersecurity is understanding how systems work and learning how to secure them better. During my Master's degree, I worked on several projects involving network infrastructures, Active Directory environments, SOC laboratories, and cryptography. My development background also gives me a broader vision between code and infrastructure.",
+  "cv": "Download Resume"
+  },"section1": {
     "salutation": "Hi !",
     "prenom": "I'm Alex",
     "titrePoste": "Application Developer | Cybersecurity Enthusiast",
@@ -27,7 +32,29 @@
     "logo2": "The logo for Antsa Fiderana Ambohidreny, on a white background, is encircled by the choir’s name. In the center, the stylized letters “AFA” in red, merged with a music note, symbolize praise and harmony. Musical staves in the background reinforce the musical theme. A Bible quote in Malagasy grounds the choir in faith.",
     "logo3": "The Hainkintana logo for its 10th anniversary – an unselected contest proposal – features a stylized \"10\" on a starry background: a telescope forms the \"1\", and Earth represents the \"0\". The words \"Hainkintana\" and \"Astronomy Association\" are included. This design evokes astronomy, discovery, and celebration of the decade.",
     "logo4": "The \"Clash mode\" logo, for an online sales page, is a black circle with a gold border. It features a shopping bag symbolizing shopping. The name \"Clash\" (derived from the seller's name) and \"mode\" evoke dynamic, trendy, and accessible fashion.",
-    "logo5": "The AE logo is inspired by my initials, Alex Emilien. Its clean, slanted lines reflect my personality: dynamic, creative, and forward-thinking. It represents my visual identity as a developer and designer."
+    "logo5": "The AE logo is inspired by my initials, Alex Emilien. Its clean, slanted lines reflect my personality: dynamic, creative, and forward-thinking. It represents my visual identity as a developer and designer.",
+    "cyberTitre": "MY CYBERSECURITY PROJECTS",
+    "cyberSousTitre": "Carried out in a controlled environment — reports & code available",
+
+    "cyber1Titre": "ATTACK SIMULATION — REVERSE SHELL",
+    "cyber1Badge": "Offensive Security",
+    "cyber1Description": "Technical simulation of a stealthy UDP Reverse Shell between Windows and Kali Linux to analyze intrusion techniques and strengthen system security.",
+    "cyber1Action": "View report",
+
+    "cyber2Titre": "SOC LAB DEPLOYMENT & C2 SIMULATION",
+    "cyber2Badge": "Architecture & Detection",
+    "cyber2Description": "Design of a virtualized 3-zone network infrastructure. Active Directory attack simulation (Sliver C2, Mimikatz) and real-time detection engineering (Suricata IDS/IPS, Filebeat, SIEM ElasticStack, TheHive).",
+    "cyber2Action": "View configuration",
+
+    "cyber3Titre": "LIGHTWEIGHT FIREWALL INTERFACE — IPTABLES",
+    "cyber3Badge": "Network Security",
+    "cyber3Description": "Development of a graphical firewall management application (GUI) on Linux. Enables dynamic rule injection, strict IP validation (Regex) and real-time iptables rule deletion.",
+    "cyber3Action": "View code",
+
+    "cyber4Titre": "SYMMETRIC & ASYMMETRIC CRYPTOGRAPHY",
+    "cyber4Badge": "Cryptography",
+    "cyber4Description": "Implementation of encryption algorithms (AES, RSA). Comparative study of symmetric and asymmetric approaches with concrete use cases.",
+    "cyber4Action": "In progress"
   },
   "section4": {
     "grandTitre": "MY SKILLS",

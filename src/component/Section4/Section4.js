@@ -1,8 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react'
-import { FaFigma, FaJava, FaJs, FaPython, FaPhp, FaReact,  FaShieldAlt, FaServer, FaNetworkWired, FaKey, FaNodeJs } from "react-icons/fa";
+import { FaFigma, FaJava, FaJs, FaPython, FaPhp, FaReact, FaShieldAlt, FaServer, FaNetworkWired, FaKey, FaNodeJs } from "react-icons/fa";
 import { PiFileCSharp } from "react-icons/pi";
 import { BiLogoTypescript, BiLogoPostgresql, BiNetworkChart } from "react-icons/bi";
-import { SiDjango, SiTailwindcss, SiMongodb, SiAdobephotoshop, SiAdobeillustrator} from "react-icons/si";
+import { SiDjango, SiTailwindcss, SiMongodb, SiAdobephotoshop, SiAdobeillustrator } from "react-icons/si";
 import { FiKey } from "react-icons/fi";
 import { TbBrandMysql } from "react-icons/tb";
 import { motion } from "framer-motion";
@@ -11,7 +11,7 @@ import { useTranslation } from 'react-i18next';
 const Section4 = () => {
   const orbitRef = useRef(null);
   const hovered = useState(false);
-   const { t } = useTranslation();
+  const { t } = useTranslation();
 
   useEffect(() => {
     let angle = 0;
@@ -32,7 +32,6 @@ const Section4 = () => {
     return () => clearInterval(interval);
   }, [hovered]);
 
-
   return (
     <div id="s4">
       {/*Section 4*/}
@@ -40,24 +39,21 @@ const Section4 = () => {
 
         <div className='w-[90%]'>
           <div className='text-[22px] text-white audio'>{t('section4.grandTitre')}</div>
-          <motion.div 
-          className='bg-[#00BBFF] h-[3px] w-[150px] mt-[10px] rounded-full'
-          initial={{ width: 0, opacity: 0 }}
-          whileInView={{ width: "100px", opacity: 1 }}
-          transition={{
-            duration: 1,
-            ease: "easeInOut"
-          }}
-          viewport={{ once: true }}
-          ></motion.div>
+          <motion.div
+            className='bg-[#00BBFF] h-[3px] w-[150px] mt-[10px] rounded-full'
+            initial={{ width: 0, opacity: 0 }}
+            whileInView={{ width: "100px", opacity: 1 }}
+            transition={{ duration: 1, ease: "easeInOut" }}
+            viewport={{ once: true }}
+          />
         </div>
 
         <div className='flex justify-center md:justify-center w-screen pt-[0px] md:pt-[20px] z-10'>
           <div className='grid grid-cols-1 z-10 w-[100%] md:grid-cols-2 md:w-[90%] md:h-auto p-[40px] pb-[0px] gap-10 mb-[50px]'>
 
             {/* Langages */}
-            <div >
-              <h1 >{t('section4.competence1')}</h1>
+            <div>
+              <h1>{t('section4.competence1')}</h1>
               <div className='flex mt-[20px] gap-4 text-[15px]'>
                 <div className='flex items-center justify-center border rounded-[20px] w-[100px] py-[3px] border-[white] mt-[10px] gap-2'>
                   <p>Java</p><FaJava />
@@ -93,7 +89,7 @@ const Section4 = () => {
                   <p>Django</p><SiDjango />
                 </div>
                 <div className='flex items-center justify-center border rounded-[20px] w-[120px] py-[3px] border-[white] mt-[10px] gap-3'>
-                  <p>NodeJS</p><FaNodeJs/>
+                  <p>NodeJS</p><FaNodeJs />
                 </div>
               </div>
               <div className='flex items-center justify-center border rounded-[20px] w-[150px] py-[3px] border-[white] mt-[10px] gap-3'>
@@ -118,7 +114,7 @@ const Section4 = () => {
             </div>
 
             {/* Design */}
-            <div >
+            <div>
               {t('section4.competence4')}
               <div className='flex mt-[20px] gap-4 text-[15px]'>
                 <div className='flex items-center justify-center border rounded-[20px] w-[180px] py-[3px] border-[white] mt-[10px] gap-3'>
@@ -135,22 +131,22 @@ const Section4 = () => {
 
             {/* Cybersécurité & Réseaux */}
             <div>
-            {t('section4.competence5')}
-            <div className='flex flex-wrap mt-[20px] gap-x-4 text-[15px]'>
+              {t('section4.competence5')}
+              <div className='flex flex-wrap mt-[20px] gap-x-4 text-[15px]'>
                 <div className='flex items-center justify-center border rounded-[20px] w-[150px] py-[3px] border-[white] mt-[10px] gap-3'>
-                   <p>Suricata</p><FaShieldAlt />
+                  <p>Suricata</p><FaShieldAlt />
                 </div>
                 <div className='flex items-center justify-center border rounded-[20px] w-[120px] py-[3px] border-[white] mt-[10px] gap-3'>
-                 <p>ELK Stack</p><FaServer />
+                  <p>ELK Stack</p><FaServer />
                 </div>
                 <div className='flex items-center justify-center border rounded-[20px] w-[120px] py-[3px] border-[white] mt-[10px] gap-3'>
-                 <p>IDS / IPS</p><FaShieldAlt />
+                  <p>IDS / IPS</p><FaShieldAlt />
                 </div>
                 <div className='flex items-center justify-center border rounded-[20px] w-[120px] py-[3px] border-[white] mt-[10px] gap-3'>
-                 <p>Pare-feu</p><FaNetworkWired />
+                  <p>Pare-feu</p><FaNetworkWired />
                 </div>
                 <div className='flex items-center justify-center border rounded-[20px] w-[100px] py-[3px] border-[white] mt-[10px] gap-3'>
-                   <p>VPN</p><FaKey />
+                  <p>VPN</p><FaKey />
                 </div>
                 <div className='flex items-center justify-center border rounded-[20px] w-[150px] py-[3px] border-[white] mt-[10px] gap-3'>
                   <p>Auth & Authz</p><FiKey />
@@ -158,11 +154,41 @@ const Section4 = () => {
                 <div className='flex items-center justify-center border rounded-[20px] w-[180px] py-[3px] border-[white] mt-[10px] gap-3'>
                   <p>TCP/IP, DNS, DHCP</p><BiNetworkChart />
                 </div>
+                <div className='flex items-center justify-center border rounded-[20px] w-[130px] py-[3px] border-[white] mt-[10px] gap-3'>
+                  <p>Kali Linux</p><FaShieldAlt />
+                </div>
+                <div className='flex items-center justify-center border rounded-[20px] w-[110px] py-[3px] border-[white] mt-[10px] gap-3'>
+                  <p>iptables</p><FaNetworkWired />
+                </div>
+                <div className='flex items-center justify-center border rounded-[20px] w-[120px] py-[3px] border-[white] mt-[10px] gap-3'>
+                  <p>Wireshark</p><BiNetworkChart />
+                </div>
+                <div className='flex items-center justify-center border rounded-[20px] w-[100px] py-[3px] border-[white] mt-[10px] gap-3'>
+                  <p>Nmap</p><FaNetworkWired />
+                </div>
+                <div className='flex items-center justify-center border rounded-[20px] w-[120px] py-[3px] border-[white] mt-[10px] gap-3'>
+                  <p>Sliver C2</p><FaShieldAlt />
+                </div>
+                <div className='flex items-center justify-center border rounded-[20px] w-[120px] py-[3px] border-[white] mt-[10px] gap-3'>
+                  <p>Mimikatz</p><FiKey />
+                </div>
+                <div className='flex items-center justify-center border rounded-[20px] w-[170px] py-[3px] border-[white] mt-[10px] gap-3'>
+                  <p>Active Directory</p><FaServer />
+                </div>
+                <div className='flex items-center justify-center border rounded-[20px] w-[110px] py-[3px] border-[white] mt-[10px] gap-3'>
+                  <p>TheHive</p><FaShieldAlt />
+                </div>
+                <div className='flex items-center justify-center border rounded-[20px] w-[110px] py-[3px] border-[white] mt-[10px] gap-3'>
+                  <p>Netcat</p><BiNetworkChart />
+                </div>
+                <div className='flex items-center justify-center border rounded-[20px] w-[130px] py-[3px] border-[white] mt-[10px] gap-3'>
+                  <p>PowerShell</p><FaServer />
+                </div>
               </div>
             </div>
-            <div>
 
-            </div>
+            <div></div>
+
           </div>
         </div>
       </div>
