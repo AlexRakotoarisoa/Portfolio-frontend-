@@ -1,203 +1,122 @@
 import React from 'react'
-import { IoIosRadioButtonOn } from "react-icons/io";
 import { motion } from "framer-motion";
 import { useTranslation } from 'react-i18next';
 
+const experiences = [
+  {
+    dateKey: 'sectionx.t02',
+    orgKey: 'sectionx.t01',
+    descKey: 'sectionx.t03',
+    tags: ['Java', 'NodeJS', 'MySQL', 'Room'],
+    badge: null,
+  },
+  {
+    dateKey: 'sectionx.t022',
+    orgKey: 'sectionx.t011',
+    descKey: 'sectionx.t033',
+    tags: ['IDS/IPS', 'Suricata', 'ELK Stack'],
+    badge: 'Cybersécurité',
+  },
+  {
+    dateKey: 'sectionx.t12',
+    orgKey: 'sectionx.t11',
+    descKey: 'sectionx.t13',
+    tags: ['ReactJS', 'Django', 'Figma'],
+    badge: null,
+  },
+  {
+    dateKey: 'sectionx.t22',
+    orgKey: 'sectionx.t21',
+    descKey: 'sectionx.t23',
+    tags: ['Java'],
+    badge: null,
+  },
+  {
+    dateKey: 'sectionx.t32',
+    orgKey: 'sectionx.t31',
+    descKey: 'sectionx.t33',
+    tags: ['JavaScript', 'NodeJS'],
+    badge: null,
+  },
+];
 
 const SectionX = () => {
   const { t } = useTranslation();
+
   return (
-    <div id="sx" className='flex items-center justify-between flex-col h-auto w-[100%] bg-[#141C21] pb-[50px] md:pt-[20px]'>
-        <div className='w-[90%]'>
-            <div className='text-[22px] text-white audio'>{t('sectionx.grandTitre')}</div>
-            <motion.div 
-            className='bg-[#00BBFF] h-[3px] w-[150px] mt-[10px] rounded-full'
-            initial={{ width: 0, opacity: 0 }}
-            whileInView={{ width: "170px", opacity: 1 }}
-            transition={{
-              duration: 1,
-              ease: "easeInOut"
-            }}
-            viewport={{ once: true }}
-            ></motion.div>       
-        </div>
+    <div id="sx" className='flex items-center flex-col h-auto w-full bg-[#141C21] py-[60px]'>
 
-        <div className='grid grid-cols-1 ml-[40px] h-auto mt-[40px] w-[90%] md:grid-cols-2 md:ml-0 md:mt-[80px]'>
+      {/* Titre */}
+      <div className='w-[90%] mb-[50px]'>
+        <div className='text-[22px] text-white audio'>{t('sectionx.grandTitre')}</div>
+        <motion.div
+          className='bg-[#00BBFF] h-[3px] mt-[10px] rounded-full'
+          initial={{ width: 0, opacity: 0 }}
+          whileInView={{ width: "170px", opacity: 1 }}
+          transition={{ duration: 1, ease: "easeInOut" }}
+          viewport={{ once: true }}
+        />
+      </div>
 
-
-          <div className='flex items-center justify-center'>
-            <div className='flex items-center border-l-[1px] w-full h-[280px] md:h-[260px]'>
-              <motion.div 
-              className='relative w-[100%] h-[80%] px-[20px] md:px-[30px]' 
-              initial={{ y: 50, opacity: 0 }}
-              whileInView={{ y: 0, opacity: 1 }}
-              transition={{
-              delay :0.7,
-              duration: 1.2,
-              ease: "easeOut"
-            }}
-            viewport={{ once: true }}>
-              <div className='absolute left-[-11px] top-0  text-white'>
-                  <IoIosRadioButtonOn size={20}/>
-                </div>
-                <div>
-                 <p className='text-[17px] md:text-[20px] text-white'>{t('sectionx.t01')}</p>
-                 <p className='md:text-[15px] text-[gray] mt-[12px]'>{t('sectionx.t02')}</p>
-                 <p className='md:text-[15px] text-[white] mt-[12px]'>{t('sectionx.t03')}</p>
-                 <div className='flex gap-3 text-[white]'> 
-                  <div className='flex items-center justify-center border rounded-[10px] w-[100px] py-[3px] border-[white] mt-[10px] gap-3'>
-                    <p>Java</p>
-                  </div>
-                  <div className='flex items-center justify-center border rounded-[10px] w-[100px] py-[3px] border-[white] mt-[10px] gap-3'>
-                    <p>NodeJS</p>
-                  </div>
-                  <div className='flex items-center justify-center border rounded-[10px] w-[100px] py-[3px] border-[white] mt-[10px] gap-3'>
-                    <p>MySQL</p>
-                  </div>
-                  <div className='flex items-center justify-center border rounded-[10px] w-[100px] py-[3px] border-[white] mt-[10px] gap-3'>
-                    <p>Room</p>
-                  </div>
-                </div>
-                </div>
-              </motion.div>
+      {/* Timeline */}
+      <div className='w-[90%] flex flex-col gap-0'>
+        {experiences.map((exp, i) => (
+          <motion.div
+            key={i}
+            className='grid grid-cols-[100px_1fr] md:grid-cols-[160px_1fr] gap-[20px] md:gap-[30px] pb-[2.5rem]'
+            initial={{ y: 40, opacity: 0 }}
+            whileInView={{ y: 0, opacity: 1 }}
+            transition={{ duration: 0.8, delay: i * 0.1, ease: "easeOut" }}
+            viewport={{ once: true, amount: 0.3 }}
+          >
+            {/* Date */}
+            <div className='text-right pt-[3px]'>
+              <span className='text-gray-500 text-[13px] leading-[1.6]'>
+                {t(exp.dateKey)}
+              </span>
             </div>
-          </div>
 
-          <div className='flex items-center justify-center'>
-            <div className='flex items-center border-l-[1px] w-full h-[300px] md:h-[260px]'>
-              <motion.div 
-              className='relative w-[100%] h-[80%] px-[20px] md:px-[30px]' 
-              initial={{ y: 50, opacity: 0 }}
-              whileInView={{ y: 0, opacity: 1 }}
-              transition={{
-              delay :0.7,
-              duration: 1.2,
-              ease: "easeOut"
-            }}
-            viewport={{ once: true }}>
-              <div className='absolute left-[-11px] top-0  text-white'>
-                  <IoIosRadioButtonOn size={20}/>
-                </div>
-                <div>
-                 <p className='text-[17px] md:text-[20px] text-white'>{t('sectionx.t011')}</p>
-                 <p className='md:text-[15px] text-[gray] mt-[12px]'>{t('sectionx.t022')}</p>
-                 <p className='md:text-[15px] text-[white] mt-[12px]'>{t('sectionx.t033')}</p>
-                 <div className='flex gap-3 text-[white]'> 
-                  <div className='flex items-center justify-center border rounded-[10px] w-[100px] py-[3px] border-[white] mt-[10px] gap-3'>
-                    <p>IDS/IPS</p>
-                  </div>
-                  <div className='flex items-center justify-center border rounded-[10px] w-[100px] py-[3px] border-[white] mt-[10px] gap-3'>
-                    <p>Suricata</p>
-                  </div>
-                  <div className='flex items-center justify-center border rounded-[10px] w-[100px] py-[3px] border-[white] mt-[10px] gap-3'>
-                    <p>ELK</p>
-                  </div>
-                </div>
-                </div>
-              </motion.div>
+            {/* Contenu */}
+            <div className='relative pl-[24px] border-l border-[#1E3A4A]'>
+
+              {/* Dot */}
+              <div className='absolute left-[-5px] top-[5px] w-[9px] h-[9px] rounded-full bg-white border-2 border-[#141C21]' />
+
+              {/* Org */}
+              <p className='text-white text-[17px] md:text-[18px] font-semibold m-0 mb-[6px]'>
+                {t(exp.orgKey)}
+              </p>
+
+              {/* Badge cybersec */}
+              {exp.badge && (
+                <span className='inline-block text-[12px] px-[10px] py-[3px] rounded-full bg-[#0A2030] border border-[#60A5FA]/30 text-[#60A5FA] mb-[10px]'>
+                  {exp.badge}
+                </span>
+              )}
+
+              {/* Description */}
+              <p className='text-gray-400 text-[14px] md:text-[15px] leading-[1.8] m-0 mb-[14px]'>
+                {t(exp.descKey)}
+              </p>
+
+              {/* Tags */}
+              <div className='flex flex-wrap gap-[6px]'>
+                {exp.tags.map((tag) => (
+                  <span
+                    key={tag}
+                    className='text-[12px] px-[12px] py-[3px] rounded-full bg-[#0D1B22] border border-[#1E3A4A] text-gray-400'
+                  >
+                    {tag}
+                  </span>
+                ))}
+              </div>
             </div>
-          </div>
+          </motion.div>
+        ))}
+      </div>
 
-
-          <div className='flex items-center justify-center'>
-            <div className='flex items-center border-l-[1px] w-full md:h-[260px] h-[230px]'>
-              <motion.div 
-              className='relative w-[100%] h-[80%] px-[20px] md:px-[30px]' 
-                  initial={{ y: 50, opacity: 0 }}
-                  whileInView={{ y: 0, opacity: 1 }}
-                  transition={{
-                  duration: 1.2,
-                  ease: "easeOut"
-                }}
-                viewport={{ once: true }}>
-                <div className='absolute left-[-11px] top-0  text-white'>
-                  <IoIosRadioButtonOn size={20}/>
-                </div>
-                <div>
-                 <p className='text-[17px] md:text-[20px] text-white'>{t('sectionx.t11')}</p>
-                 <p className='md:text-[15px] text-[gray] mt-[12px]'>{t('sectionx.t12')}</p>
-                 <p className='md:text-[15px] text-[white] mt-[12px]'>{t('sectionx.t13')}</p>
-                <div className='flex gap-3 text-[white]'> 
-                  <div className='flex items-center justify-center border-[0.1px] rounded-[10px] w-[90px] py-[3px] border-[yellow] mt-[10px] gap-3'>
-                    <p>ReactJS</p>
-                  </div>
-                  <div className='flex items-center justify-center border rounded-[10px] w-[90px] py-[3px] border-[white] mt-[10px] gap-3'>
-                    <p>Django</p>
-                  </div>
-                  <div className='flex items-center justify-center border rounded-[10px] w-[90px] py-[3px] border-[white] mt-[10px] gap-3'>
-                    <p>Figma</p>
-                  </div>    
-                </div>
-                </div>
-              </motion.div>
-            </div>
-          </div>
-
-          <div className='flex items-center justify-center'>
-            <div className='flex items-center border-l-[1px] w-full h-[270px]'>
-              <motion.div 
-              className='relative w-[100%] h-[80%] px-[20px] md:px-[30px]' 
-              initial={{ y: 50, opacity: 0 }}
-                  whileInView={{ y: 0, opacity: 1 }}
-                  transition={{
-                  delay: 0.5,
-                  duration: 1.2,
-                  ease: "easeOut"
-                }}
-                viewport={{ once: true }}>
-              <div className='absolute left-[-11px] top-0  text-white'>
-                  <IoIosRadioButtonOn size={20}/>
-                </div>
-                <div>
-                 <p className='text-[17px] md:text-[20px] text-white'>{t('sectionx.t21')}</p>
-                 <p className='md:text-[15px] text-[gray] mt-[12px]'>{t('sectionx.t22')}</p>
-                 <p className='md:text-[15px] text-[white] mt-[12px]'>{t('sectionx.t23')}</p>
-                 <div className='flex gap-3 text-[white]'> 
-                  <div className='flex items-center justify-center border rounded-[10px] w-[100px] py-[3px] border-[white] mt-[10px] gap-3'>
-                    <p>Java</p>
-                  </div>
-                </div>
-                </div>
-              </motion.div>
-            </div>
-          </div>
-
-
-          <div className='flex items-center justify-center'>
-            <div className='flex items-center border-l-[1px] w-full h-[220px] md:h-[260px]'>
-              <motion.div 
-              className='relative w-[100%] h-[80%] px-[20px] md:px-[30px]' 
-              initial={{ y: 50, opacity: 0 }}
-              whileInView={{ y: 0, opacity: 1 }}
-              transition={{
-              delay :0.7,
-              duration: 1.2,
-              ease: "easeOut"
-            }}
-            viewport={{ once: true }}>
-              <div className='absolute left-[-11px] top-0  text-white'>
-                  <IoIosRadioButtonOn size={20}/>
-                </div>
-                <div>
-                 <p className='text-[17px] md:text-[20px] text-white'>{t('sectionx.t31')}</p>
-                 <p className='md:text-[15px] text-[gray] mt-[12px]'>{t('sectionx.t32')}</p>
-                 <p className='md:text-[15px] text-[white] mt-[12px]'>{t('sectionx.t33')}</p>
-                 <div className='flex gap-3 text-[white]'> 
-                  <div className='flex items-center justify-center border rounded-[10px] w-[100px] py-[3px] border-[white] mt-[10px] gap-3'>
-                    <p>Java Script</p>
-                  </div>
-                  <div className='flex items-center justify-center border rounded-[10px] w-[100px] py-[3px] border-[white] mt-[10px] gap-3'>
-                    <p>NodeJS</p>
-                  </div>
-                </div>
-                </div>
-              </motion.div>
-            </div>
-          </div>
-
-        </div>
     </div>
-  )
-}
+  );
+};
 
-export default SectionX
+export default SectionX;
