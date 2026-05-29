@@ -7,7 +7,7 @@
   },"section1": {
     "salutation": "Hi !",
     "prenom": "I'm Alex",
-    "titrePoste": "Application Developer | Cybersecurity Enthusiast",
+    "titrePoste": "Full-Stack developer | Cybersecurity Enthusiast",
     "descriptionPoste": "I design high-performance, user-friendly applications tailored to real needs – from wireframes to deployment."
   },
   "section2": {
@@ -62,7 +62,8 @@
     "competence2": "Frameworks & Libraries",
     "competence3": "Databases",
     "competence4": "Design & Prototyping Tools",
-    "competence5": "Cybersecurity & Networks"
+    "competence5": "Cybersecurity & Networks",
+    "competence6": "DevOps & Tools"
   },
   "section6": {
     "grandTitre": "CERTIFICATIONS",

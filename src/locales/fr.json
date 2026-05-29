@@ -8,7 +8,7 @@
   "section1": {
     "salutation": "Hi !",
     "prenom": "I'm Alex",
-    "titrePoste": "Développeur d'applications | Intéressé par la Cybersécurité",
+    "titrePoste": "Développeur Full-Stack | Intéressé par la Cybersécurité",
     "descriptionPoste": "Je conçois des applications performantes, intuitives et adaptées aux besoins réels, de la maquette au déploiement."
   },
   "section2": {
@@ -62,7 +62,8 @@
     "competence2": "Frameworks & bibliothèques",
     "competence3": "Bases de données",
     "competence4": "Outils de design & prototypage",
-    "competence5": "Cybersécurité & Réseaux"
+    "competence5": "Cybersécurité & Réseaux",
+    "competence6": "DevOps & Outils"
     
   },
   "section6": {
