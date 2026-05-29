@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react'
 import { FaFigma, FaJava, FaJs, FaPython, FaPhp, FaReact, FaShieldAlt, FaServer, FaNetworkWired, FaKey, FaNodeJs } from "react-icons/fa";
 import { PiFileCSharp } from "react-icons/pi";
 import { BiLogoTypescript, BiLogoPostgresql, BiNetworkChart } from "react-icons/bi";
-import { SiDjango, SiTailwindcss, SiMongodb, SiAdobephotoshop, SiAdobeillustrator } from "react-icons/si";
+import { SiDjango, SiTailwindcss, SiMongodb, SiAdobephotoshop, SiAdobeillustrator, SiDocker, SiGit } from "react-icons/si";
 import { FiKey } from "react-icons/fi";
 import { TbBrandMysql } from "react-icons/tb";
 import { motion } from "framer-motion";
@@ -112,6 +112,19 @@ const Section4 = () => {
                 <p>MongoDB</p><SiMongodb />
               </div>
             </div>
+
+            {/* DevOps & Outils */}
+              <div>
+                {t('section4.competence6')}
+                <div className='flex mt-[20px] gap-4 text-[15px]'>
+                  <div className='flex items-center justify-center border rounded-[20px] w-[120px] py-[3px] border-[white] mt-[10px] gap-3'>
+                    <p>Docker</p><SiDocker />
+                  </div>
+                  <div className='flex items-center justify-center border rounded-[20px] w-[100px] py-[3px] border-[white] mt-[10px] gap-3'>
+                    <p>Git</p><SiGit />
+                  </div>
+                </div>
+              </div>
 
             {/* Design */}
             <div>
