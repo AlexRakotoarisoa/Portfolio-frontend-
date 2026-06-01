@@ -51,7 +51,7 @@ const About = () => {
             <a
               href={cv}
               download="CV_Rakotoarisoa_Alex.pdf"
-              className="mt-[1.8rem] inline-flex items-center gap-[8px] px-[18px] py-[10px] rounded-[10px] bg-white text-black text-[13px] font-semibold hover:bg-gray-100 transition-all duration-300 w-fit"
+              className="mt-[1.8rem] inline-flex hidden items-center gap-[8px] px-[18px] py-[10px] rounded-[10px] bg-white text-black text-[13px] font-semibold hover:bg-gray-100 transition-all duration-300 w-fit"
             >
               <FaDownload size={12} />
               {t("about.cv")}
