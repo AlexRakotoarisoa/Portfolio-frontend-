@@ -162,7 +162,7 @@ const Section3 = ({ openModal }) => {
         </div>
 
         {/* ── Projets Dev ── */}
-        <div className='text-[20px] text-white mt-[30px]'>{t('section3.titreProjet')}</div>
+        <div className='text-[20px] text-white mt-[50px]'>{t('section3.titreProjet')}</div>
         <div className='h-auto items-center grid grid-cols-1 md:grid-cols-3 gap-y-[40px] gap-x-[55px] mt-[30px] md:mt-[50px]'>
 
           <div className='h-[auto] w-[350px] rounded-[10px] overflow-hidden'>

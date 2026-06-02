@@ -107,7 +107,7 @@ const Section4 = () => {
 
   return (
     <div id="s4">
-      <div className='relative text-white flex h-auto items-center flex-col pt-[90px] pb-20 bg-[linear-gradient(to_top_right,#141C21_55%,#103145_90%)] w-full overflow-hidden md:pt-[80px]'>
+      <div className='relative text-white flex h-auto items-center flex-col pt-[90px] pb-20 bg-[#141C21] w-full overflow-hidden md:pt-[80px]'>
 
         {/* Titre */}
         <div className='relative z-10 w-[90%] mb-12'>
