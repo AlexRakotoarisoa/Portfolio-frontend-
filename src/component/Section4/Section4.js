@@ -18,14 +18,14 @@ const Section4 = () => {
   const { t } = useTranslation();
 
   const Badge = ({ icon, label }) => (
-    <div className="flex items-center gap-[10px] px-4 py-[9px] rounded-full text-[14px] font-medium border border-white/15 bg-white/5 text-gray-200 cursor-default">
+    <div className="flex items-center gap-[10px] px-4 py-[9px] rounded-full text-[14px] font-medium border border-[#1E3A4A] bg-[#0a141a] text-gray-200 cursor-default hover:border-[#2A4A5A] transition-all duration-300">
       <span className="text-[18px] text-[#00BBFF] flex-shrink-0 leading-none">{icon}</span>
       <span className="leading-none">{label}</span>
     </div>
   );
 
   const CategoryCard = ({ title, children }) => (
-    <div className="bg-white/5 border border-white/10 rounded-2xl p-7 flex flex-col gap-5">
+    <div className="bg-[#0D1B22] border border-[#1E3A4A] rounded-2xl p-7 flex flex-col gap-5 hover:border-[#2A4A5A] transition-all duration-300">
       <div className="flex items-center gap-3">
         <div className="w-[3px] h-7 rounded-full bg-[#00BBFF] flex-shrink-0"></div>
         <h3 className="text-[17px] font-semibold text-white tracking-tight">{title}</h3>
@@ -107,14 +107,9 @@ const Section4 = () => {
 
   return (
     <div id="s4">
-      <div className='relative text-white flex h-auto items-center flex-col pt-[90px] pb-20 bg-[#141C21] w-full overflow-hidden md:pt-[80px]'>
+      <div className='relative text-white flex h-auto items-center flex-col pt-[90px] pb-20 bg-[linear-gradient(to_top_right,#141C21_55%,#103145_90%)] w-full overflow-hidden md:pt-[80px]'>
 
-        <div className="absolute inset-0 overflow-hidden pointer-events-none">
-          <div className="absolute top-0 left-1/4 w-96 h-96 bg-[#00BBFF]/[0.04] rounded-full"></div>
-          <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-[#00BBFF]/[0.03] rounded-full"></div>
-        </div>
-
-        {/* Titre original */}
+        {/* Titre */}
         <div className='relative z-10 w-[90%] mb-12'>
           <div className='text-[22px] text-white audio'>
             {t('section4.grandTitre')}
@@ -128,20 +123,10 @@ const Section4 = () => {
           />
         </div>
 
-        {/* Grille */}
         <div className='relative z-10 w-[90%] flex flex-col gap-6'>
-          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
-            {categories.map((cat, idx) => (
-              <CategoryCard key={idx} title={cat.title}>
-                {cat.items.map((item, i) => (
-                  <Badge key={i} icon={item.icon} label={item.label} />
-                ))}
-              </CategoryCard>
-            ))}
-          </div>
 
-          {/* Cybersécurité */}
-          <div className="bg-white/5 border border-white/10 rounded-2xl p-7">
+          {/* Cybersécurité — EN PREMIER */}
+          <div className="bg-[#0D1B22] border border-[#1E3A4A] rounded-2xl p-7 hover:border-[#2A4A5A] transition-all duration-300">
             <div className="flex items-center gap-3 mb-7">
               <div className="w-[3px] h-7 rounded-full bg-[#00BBFF] flex-shrink-0"></div>
               <h3 className="text-[17px] font-semibold text-white tracking-tight">
@@ -164,7 +149,7 @@ const Section4 = () => {
               </div>
             </div>
 
-            <div className="h-px bg-gradient-to-r from-transparent via-white/10 to-transparent my-6"></div>
+            <div className="h-px bg-gradient-to-r from-transparent via-[#1E3A4A] to-transparent my-6"></div>
 
             {/* Red Team */}
             <div>
@@ -180,8 +165,19 @@ const Section4 = () => {
                 ))}
               </div>
             </div>
-            
           </div>
+
+          {/* Grille des catégories */}
+          <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6'>
+            {categories.map((cat, idx) => (
+              <CategoryCard key={idx} title={cat.title}>
+                {cat.items.map((item, i) => (
+                  <Badge key={i} icon={item.icon} label={item.label} />
+                ))}
+              </CategoryCard>
+            ))}
+          </div>
+
         </div>
       </div>
     </div>

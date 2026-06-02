@@ -6,16 +6,16 @@ import { FaCode, FaImage, FaLock } from "react-icons/fa";
 
 const cards = [
   {
-    icon: <FaCode size={18} />,
-    titleKey: 'section2.titre1',
-    descKey: 'section2.description1',
-    tags: ['React', 'Django', 'NodeJS'],
-  },
-  {
     icon: <FaLock size={18} />,
     titleKey: 'section2.titre2',
     descKey: 'section2.description2',
     tags: ['Suricata', 'ELK Stack', 'SOC Lab'],
+  },
+  {
+    icon: <FaCode size={18} />,
+    titleKey: 'section2.titre1',
+    descKey: 'section2.description1',
+    tags: ['React', 'Django', 'NodeJS'],
   },
   {
     icon: <FaImage size={18} />,

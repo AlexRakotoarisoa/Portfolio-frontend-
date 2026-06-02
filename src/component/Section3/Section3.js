@@ -69,91 +69,7 @@ const Section3 = ({ openModal }) => {
           />
         </div>
 
-        {/* ── Projets Dev ── */}
-        <div className='text-[20px] text-white mt-[30px]'>{t('section3.titreProjet')}</div>
-        <div className='h-auto items-center grid grid-cols-1 md:grid-cols-3 gap-y-[40px] gap-x-[55px] mt-[30px] md:mt-[50px]'>
-
-          <div className='h-[auto] w-[350px] rounded-[10px] overflow-hidden'>
-            <div className='relative w-full h-full group overflow-hidden'>
-              <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
-              <img src={Pr1} alt='Site AEC'/>
-              <button onClick={() => openModal('projet1')} className='absolute flex items-center justify-center gap-2 z-20 bottom-[48px] right-[-100px] w-[100px] h-[25px] bg-[white] rounded-[10px] text-[14px] group-hover:right-2 transition-all duration-200 ease-in'>Visualiser <FaImage/></button>
-              <button onClick={() => window.open("https://github.com/AlexRakotoarisoa/AEC-frontend", "_blank")} className='absolute flex gap-2 items-center justify-center z-20 bottom-4 right-[-100px] w-[100px] h-[25px] bg-[white] rounded-[10px] text-[14px] group-hover:right-2 transition-all duration-250 delay-150 ease-in'>Code <FaCode/></button>
-            </div>
-            <div className='text-[white] text-[14px] pt-[20px] h-[140px] w-[100%]'>
-              <p className='font-semibold text-[16px]'>{t('section3.projet1')}</p>
-              <div className='flex gap-3'>
-                <div className='flex items-center justify-center border-[1.5px] border-[#076584] rounded-[10px] w-[110px] py-[3px] mt-[10px] gap-3'><p>ReactJS</p><SiReact/></div>
-                <div className='flex items-center justify-center border-[1.5px] border-[#076587] rounded-[10px] w-[100px] py-[3px] mt-[10px] gap-3'><p>Django</p><SiDjango/></div>
-              </div>
-            </div>
-          </div>
-
-          <div className='h-[auto] w-[350px] rounded-[10px] overflow-hidden'>
-            <div className='relative w-full h-full group overflow-hidden'>
-              <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
-              <img src={Pr2} alt='Application DRAE'/>
-              <button onClick={() => openModal('projet2')} className='absolute flex items-center justify-center gap-2 z-20 bottom-[48px] right-[-100px] w-[100px] h-[25px] bg-[white] rounded-[10px] text-[14px] group-hover:right-2 transition-all duration-200 ease-in'>Visualiser <FaImage/></button>
-              <button onClick={() => window.open("https://github.com/AlexRakotoarisoa/Code_source_java_stageL2", "_blank")} className='absolute flex gap-2 items-center justify-center z-20 bottom-4 right-[-100px] w-[100px] h-[25px] bg-[white] rounded-[10px] text-[14px] group-hover:right-2 transition-all duration-250 delay-150 ease-in'>Code <FaCode/></button>
-            </div>
-            <div className='text-[white] text-[14px] pt-[20px] h-[140px] w-[100%]'>
-              <p className='font-semibold text-[16px]'>{t('section3.projet2')}</p>
-              <div className='flex gap-3'>
-                <div className='flex items-center justify-center border-[#076766] rounded-[10px] w-[100px] py-[3px] border-[1.5px] mt-[10px] gap-3'><p>Java SE</p><FaJava/></div>
-              </div>
-            </div>
-          </div>
-
-          <div className='h-[auto] w-[350px] rounded-[10px] overflow-hidden'>
-            <div className='relative w-full h-full group overflow-hidden'>
-              <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
-              <img src={Pr3} alt='Plateforme Etudiant'/>
-              <button onClick={() => openModal('projet3')} className='absolute flex items-center justify-center gap-2 z-20 bottom-[48px] right-[-100px] w-[100px] h-[25px] bg-[white] rounded-[10px] text-[14px] group-hover:right-2 transition-all duration-200 ease-in'>Visualiser <FaImage/></button>
-              <button onClick={() => window.open("https://github.com/AlexRakotoarisoa/Gestion_etudiant_nodeJS", "_blank")} className='absolute flex gap-2 items-center justify-center z-20 bottom-4 right-[-100px] w-[100px] h-[25px] bg-[white] rounded-[10px] text-[14px] group-hover:right-2 transition-all duration-250 delay-150 ease-in'>Code <FaCode/></button>
-            </div>
-            <div className='text-[white] text-[14px] pt-[20px] h-[140px] w-[100%]'>
-              <p className='font-semibold text-[16px]'>{t('section3.projet3')}</p>
-              <div className='flex gap-3'>
-                <div className='flex items-center justify-center border border-[#4C4B4B] rounded-[10px] w-[140px] py-[3px] border-[white] mt-[10px] gap-3'><p>Java Script</p><FaJs/></div>
-                <div className='flex items-center justify-center border border-[#4C4B4B] rounded-[10px] w-[100px] py-[3px] border-[white] mt-[10px] gap-3'><p>NodeJS</p><FaNodeJs/></div>
-              </div>
-            </div>
-          </div>
-
-          <div className='h-[auto] w-[350px] rounded-[10px] overflow-hidden'>
-            <div className='relative w-full h-full group overflow-hidden'>
-              <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
-              <img src={Pr4} alt='Portfolio'/>
-              <button onClick={() => window.open("https://github.com/AlexRakotoarisoa/Portfolio-frontend-", "_blank")} className='absolute flex gap-2 items-center justify-center z-20 bottom-4 right-[-100px] w-[100px] h-[25px] bg-[white] rounded-[10px] text-[14px] group-hover:right-2 transition-all duration-250 delay-150 ease-in'>Code <FaCode/></button>
-            </div>
-            <div className='text-[white] text-[14px] pt-[20px] h-[140px] w-[100%]'>
-              <p className='font-semibold text-[16px]'>{t('section3.projet4')}</p>
-              <div className='flex gap-3'>
-                <div className='flex items-center justify-center border border-[#4C4B4B] rounded-[10px] w-[100px] py-[3px] border-[white] mt-[10px] gap-3'><p>ReactJS</p><FaReact/></div>
-                <div className='flex items-center justify-center border border-[#4C4B4B] rounded-[10px] w-[140px] py-[3px] border-[white] mt-[10px] gap-3'><p>TailwindCSS</p><SiTailwindcss/></div>
-                <div className='flex items-center justify-center border border-[#4C4B4B] rounded-[10px] w-[100px] py-[3px] border-[white] mt-[10px] gap-3'><p>Figma</p><FaFigma/></div>
-              </div>
-            </div>
-          </div>
-
-          <div className='h-[auto] w-[350px] rounded-[10px] overflow-hidden'>
-            <div className='relative w-full h-full group overflow-hidden'>
-              <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
-              <img src={Pr5} alt='Application Chorale'/>
-              <button onClick={() => openModal('projet5')} className='absolute flex items-center justify-center gap-2 z-20 bottom-[48px] right-[-100px] w-[100px] h-[25px] bg-[white] rounded-[10px] text-[14px] group-hover:right-2 transition-all duration-200 ease-in'>Visualiser <FaImage/></button>
-              <button onClick={() => window.open("https://github.com/AlexRakotoarisoa/chorale_app", "_blank")} className='absolute flex gap-2 items-center justify-center z-20 bottom-4 right-[-100px] w-[100px] h-[25px] bg-[white] rounded-[10px] text-[14px] group-hover:right-2 transition-all duration-250 delay-150 ease-in'>Code <FaCode/></button>
-            </div>
-            <div className='text-[white] text-[14px] pt-[20px] h-[140px] w-[100%]'>
-              <p className='font-semibold text-[16px]'>{t('section3.projet5')}</p>
-              <div className='flex gap-3'>
-                <div className='flex items-center justify-center border-[#076766] rounded-[10px] w-[100px] py-[3px] border-[1.5px] mt-[10px] gap-3'><p>Java</p><FaJava/></div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-        {/* ── Séparateur Cybersécurité ── */}
+         {/* ── Séparateur Cybersécurité ── */}
         <div className='w-[90%] mt-[60px] mb-[10px]'>
           <motion.div
             className='bg-[#00BBFF] h-[1px] w-full opacity-20'
@@ -244,6 +160,92 @@ const Section3 = ({ openModal }) => {
         onAction={null}
         />
         </div>
+
+        {/* ── Projets Dev ── */}
+        <div className='text-[20px] text-white mt-[30px]'>{t('section3.titreProjet')}</div>
+        <div className='h-auto items-center grid grid-cols-1 md:grid-cols-3 gap-y-[40px] gap-x-[55px] mt-[30px] md:mt-[50px]'>
+
+          <div className='h-[auto] w-[350px] rounded-[10px] overflow-hidden'>
+            <div className='relative w-full h-full group overflow-hidden'>
+              <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
+              <img src={Pr1} alt='Site AEC'/>
+              <button onClick={() => openModal('projet1')} className='absolute flex items-center justify-center gap-2 z-20 bottom-[48px] right-[-100px] w-[100px] h-[25px] bg-[white] rounded-[10px] text-[14px] group-hover:right-2 transition-all duration-200 ease-in'>Visualiser <FaImage/></button>
+              <button onClick={() => window.open("https://github.com/AlexRakotoarisoa/AEC-frontend", "_blank")} className='absolute flex gap-2 items-center justify-center z-20 bottom-4 right-[-100px] w-[100px] h-[25px] bg-[white] rounded-[10px] text-[14px] group-hover:right-2 transition-all duration-250 delay-150 ease-in'>Code <FaCode/></button>
+            </div>
+            <div className='text-[white] text-[14px] pt-[20px] h-[140px] w-[100%]'>
+              <p className='font-semibold text-[16px]'>{t('section3.projet1')}</p>
+              <div className='flex gap-3'>
+                <div className='flex items-center justify-center border-[1.5px] border-[#076584] rounded-[10px] w-[110px] py-[3px] mt-[10px] gap-3'><p>ReactJS</p><SiReact/></div>
+                <div className='flex items-center justify-center border-[1.5px] border-[#076587] rounded-[10px] w-[100px] py-[3px] mt-[10px] gap-3'><p>Django</p><SiDjango/></div>
+              </div>
+            </div>
+          </div>
+
+          <div className='h-[auto] w-[350px] rounded-[10px] overflow-hidden'>
+            <div className='relative w-full h-full group overflow-hidden'>
+              <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
+              <img src={Pr2} alt='Application DRAE'/>
+              <button onClick={() => openModal('projet2')} className='absolute flex items-center justify-center gap-2 z-20 bottom-[48px] right-[-100px] w-[100px] h-[25px] bg-[white] rounded-[10px] text-[14px] group-hover:right-2 transition-all duration-200 ease-in'>Visualiser <FaImage/></button>
+              <button onClick={() => window.open("https://github.com/AlexRakotoarisoa/Code_source_java_stageL2", "_blank")} className='absolute flex gap-2 items-center justify-center z-20 bottom-4 right-[-100px] w-[100px] h-[25px] bg-[white] rounded-[10px] text-[14px] group-hover:right-2 transition-all duration-250 delay-150 ease-in'>Code <FaCode/></button>
+            </div>
+            <div className='text-[white] text-[14px] pt-[20px] h-[140px] w-[100%]'>
+              <p className='font-semibold text-[16px]'>{t('section3.projet2')}</p>
+              <div className='flex gap-3'>
+                <div className='flex items-center justify-center border-[#076766] rounded-[10px] w-[100px] py-[3px] border-[1.5px] mt-[10px] gap-3'><p>Java SE</p><FaJava/></div>
+              </div>
+            </div>
+          </div>
+
+          <div className='h-[auto] w-[350px] rounded-[10px] overflow-hidden'>
+            <div className='relative w-full h-full group overflow-hidden'>
+              <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
+              <img src={Pr3} alt='Plateforme Etudiant'/>
+              <button onClick={() => openModal('projet3')} className='absolute flex items-center justify-center gap-2 z-20 bottom-[48px] right-[-100px] w-[100px] h-[25px] bg-[white] rounded-[10px] text-[14px] group-hover:right-2 transition-all duration-200 ease-in'>Visualiser <FaImage/></button>
+              <button onClick={() => window.open("https://github.com/AlexRakotoarisoa/Gestion_etudiant_nodeJS", "_blank")} className='absolute flex gap-2 items-center justify-center z-20 bottom-4 right-[-100px] w-[100px] h-[25px] bg-[white] rounded-[10px] text-[14px] group-hover:right-2 transition-all duration-250 delay-150 ease-in'>Code <FaCode/></button>
+            </div>
+            <div className='text-[white] text-[14px] pt-[20px] h-[140px] w-[100%]'>
+              <p className='font-semibold text-[16px]'>{t('section3.projet3')}</p>
+              <div className='flex gap-3'>
+                <div className='flex items-center justify-center border border-[#4C4B4B] rounded-[10px] w-[140px] py-[3px] border-[white] mt-[10px] gap-3'><p>Java Script</p><FaJs/></div>
+                <div className='flex items-center justify-center border border-[#4C4B4B] rounded-[10px] w-[100px] py-[3px] border-[white] mt-[10px] gap-3'><p>NodeJS</p><FaNodeJs/></div>
+              </div>
+            </div>
+          </div>
+
+          <div className='h-[auto] w-[350px] rounded-[10px] overflow-hidden'>
+            <div className='relative w-full h-full group overflow-hidden'>
+              <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
+              <img src={Pr4} alt='Portfolio'/>
+              <button onClick={() => window.open("https://github.com/AlexRakotoarisoa/Portfolio-frontend-", "_blank")} className='absolute flex gap-2 items-center justify-center z-20 bottom-4 right-[-100px] w-[100px] h-[25px] bg-[white] rounded-[10px] text-[14px] group-hover:right-2 transition-all duration-250 delay-150 ease-in'>Code <FaCode/></button>
+            </div>
+            <div className='text-[white] text-[14px] pt-[20px] h-[140px] w-[100%]'>
+              <p className='font-semibold text-[16px]'>{t('section3.projet4')}</p>
+              <div className='flex gap-3'>
+                <div className='flex items-center justify-center border border-[#4C4B4B] rounded-[10px] w-[100px] py-[3px] border-[white] mt-[10px] gap-3'><p>ReactJS</p><FaReact/></div>
+                <div className='flex items-center justify-center border border-[#4C4B4B] rounded-[10px] w-[140px] py-[3px] border-[white] mt-[10px] gap-3'><p>TailwindCSS</p><SiTailwindcss/></div>
+                <div className='flex items-center justify-center border border-[#4C4B4B] rounded-[10px] w-[100px] py-[3px] border-[white] mt-[10px] gap-3'><p>Figma</p><FaFigma/></div>
+              </div>
+            </div>
+          </div>
+
+          <div className='h-[auto] w-[350px] rounded-[10px] overflow-hidden'>
+            <div className='relative w-full h-full group overflow-hidden'>
+              <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity z-10"></div>
+              <img src={Pr5} alt='Application Chorale'/>
+              <button onClick={() => openModal('projet5')} className='absolute flex items-center justify-center gap-2 z-20 bottom-[48px] right-[-100px] w-[100px] h-[25px] bg-[white] rounded-[10px] text-[14px] group-hover:right-2 transition-all duration-200 ease-in'>Visualiser <FaImage/></button>
+              <button onClick={() => window.open("https://github.com/AlexRakotoarisoa/chorale_app", "_blank")} className='absolute flex gap-2 items-center justify-center z-20 bottom-4 right-[-100px] w-[100px] h-[25px] bg-[white] rounded-[10px] text-[14px] group-hover:right-2 transition-all duration-250 delay-150 ease-in'>Code <FaCode/></button>
+            </div>
+            <div className='text-[white] text-[14px] pt-[20px] h-[140px] w-[100%]'>
+              <p className='font-semibold text-[16px]'>{t('section3.projet5')}</p>
+              <div className='flex gap-3'>
+                <div className='flex items-center justify-center border-[#076766] rounded-[10px] w-[100px] py-[3px] border-[1.5px] mt-[10px] gap-3'><p>Java</p><FaJava/></div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+       
 
         {/* ── Logos ── */}
         <div className='text-[20px] text-white mt-[60px]'>{t('section3.titreLogo')}</div>
