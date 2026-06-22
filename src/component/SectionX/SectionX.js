@@ -4,13 +4,6 @@ import { useTranslation } from 'react-i18next';
 
 const experiences = [
   {
-    dateKey: 'sectionx.t02',
-    orgKey: 'sectionx.t01',
-    descKey: 'sectionx.t03',
-    tags: ['Java', 'NodeJS', 'MySQL', 'Room'],
-    badge: null,
-  },
-  {
     dateKey: 'sectionx.t022',
     orgKey: 'sectionx.t011',
     descKey: 'sectionx.t033',
