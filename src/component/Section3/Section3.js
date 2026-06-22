@@ -245,67 +245,6 @@ const Section3 = ({ openModal }) => {
 
         </div>
 
-       
-
-        {/* ── Logos ── */}
-        <div className='text-[20px] text-white mt-[60px]'>{t('section3.titreLogo')}</div>
-        <div className='h-auto items-center grid grid-cols-2 gap-x-[30px] md:grid-cols-4 gap-y-10 md:gap-x-[55px] mt-[60px]'>
-
-          <div className='relative w-[100%] group overflow-y-scroll h-[170px] md:h-[100%] flex md:items-center md:justify-center md:overflow-hidden'>
-            <div className='absolute flex flex-col items-center right-[300px] rounded-tr-[20px] rounded-br-[20px] opacity-0 group-hover:opacity-100 group-hover:right-0 transition-all duration-700 justify-center w-[100%] h-auto md:h-[100%] bg-[#1D262B] z-20 p-[10px] md:p-[20px]'>
-              <div className='text-[12px] text-white text-justify'>{t('section3.logo1')}</div>
-              <div className='w-[50px] rounded-full h-[2px] mt-5 bg-white'></div>
-            </div>
-            <div className='absolute w-[100%] flex justify-center bottom-0 z-10'><img src={Ombre} alt='' className='w-[75%]'/></div>
-            <div className='h-[160px] w-[160px] md:h-[250px] md:w-[250px] rounded-[10px] overflow-hidden'>
-              <div className='flex items-center justify-center w-[100%] h-[100%]'><img src={Archange} alt='' className='w-[150px] md:w-[220px] md:h-[220px]'/></div>
-            </div>
-          </div>
-
-          <div className='relative w-[100%] group overflow-y-scroll h-[170px] md:h-[100%] flex md:items-center md:justify-center md:overflow-hidden'>
-            <div className='absolute flex flex-col items-center right-[300px] rounded-tr-[20px] rounded-br-[20px] opacity-0 group-hover:opacity-100 group-hover:right-0 transition-all duration-700 justify-center w-[100%] h-auto md:h-[100%] bg-[#1D262B] z-20 p-[10px] md:p-[20px]'>
-              <div className='text-[12px] text-white text-justify'>{t('section3.logo2')}</div>
-              <div className='w-[50px] rounded-full h-[2px] mt-5 bg-white'></div>
-            </div>
-            <div className='absolute bottom-0 flex justify-center z-10'><img alt='' src={Ombre} className='w-[75%]'/></div>
-            <div className='h-[160px] w-[160px] md:h-[250px] md:w-[250px] rounded-[10px] overflow-hidden'>
-              <div className='flex items-center justify-center w-[100%] h-[100%]'><img alt='' src={Afa} className='w-[150px] md:w-[220px] md:h-[220px]'/></div>
-            </div>
-          </div>
-
-          <div className='relative w-[100%] group overflow-y-scroll h-[170px] md:h-[100%] flex md:items-center md:justify-center md:overflow-hidden'>
-            <div className='absolute flex flex-col items-center right-[300px] rounded-tr-[20px] rounded-br-[20px] opacity-0 group-hover:opacity-100 group-hover:right-0 transition-all duration-700 justify-center w-[100%] h-auto md:h-[100%] bg-[#1D262B] z-20 p-[10px] md:p-[20px]'>
-              <div className='text-[12px] text-white text-justify'>{t('section3.logo3')}</div>
-              <div className='w-[50px] rounded-full h-[2px] mt-5 bg-white'></div>
-            </div>
-            <div className='absolute bottom-0 flex justify-center z-10'><img alt='' src={Ombre} className='w-[75%]'/></div>
-            <div className='h-[160px] w-[160px] md:h-[250px] md:w-[250px] rounded-[10px] overflow-hidden'>
-              <div className='flex items-center justify-center w-[100%] h-[100%]'><img alt='' src={Astr} className='w-[150px] md:w-[220px] md:h-[220px]'/></div>
-            </div>
-          </div>
-
-          <div className='relative w-[100%] group overflow-y-scroll h-[170px] md:h-[100%] flex md:items-center md:justify-center md:overflow-hidden'>
-            <div className='absolute flex flex-col items-center right-[300px] rounded-tr-[20px] rounded-br-[20px] opacity-0 group-hover:opacity-100 group-hover:right-0 transition-all duration-700 justify-center w-[100%] h-auto md:h-[100%] bg-[#1D262B] z-20 p-[10px] md:p-[20px]'>
-              <div className='text-[12px] text-white text-justify'>{t('section3.logo4')}</div>
-              <div className='w-[50px] rounded-full h-[2px] mt-5 bg-white'></div>
-            </div>
-            <div className='absolute bottom-0 flex justify-center z-10'><img alt='' src={Ombre} className='w-[75%]'/></div>
-            <div className='h-[160px] w-[160px] md:h-[250px] md:w-[250px] rounded-[10px] overflow-hidden'>
-              <div className='flex items-center justify-center w-[100%] h-[100%]'><img alt='' src={Cla} className='w-[150px] md:w-[220px] md:h-[220px]'/></div>
-            </div>
-          </div>
-
-          <div className='relative w-[100%] group overflow-y-scroll h-[170px] md:h-[100%] flex md:items-center md:justify-center md:overflow-hidden'>
-            <div className='absolute flex flex-col items-center right-[300px] rounded-tr-[20px] rounded-br-[20px] opacity-0 group-hover:opacity-100 group-hover:right-0 transition-all duration-700 justify-center w-[100%] h-auto md:h-[100%] bg-[#1D262B] z-20 p-[10px] md:p-[20px]'>
-              <div className='text-[12px] text-white text-justify'>{t('section3.logo5')}</div>
-              <div className='w-[50px] rounded-full h-[2px] mt-5 bg-white'></div>
-            </div>
-            <div className='h-[160px] w-[160px] md:h-[250px] md:w-[250px] rounded-[10px] overflow-hidden'>
-              <div className='flex items-center justify-center w-[100%] h-[100%]'><img alt='' src={AL} className='w-[150px] md:w-[220px] md:h-[190px]'/></div>
-            </div>
-          </div>
-
-        </div>
       </div>
     </div>
   )

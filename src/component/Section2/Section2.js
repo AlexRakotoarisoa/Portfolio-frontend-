@@ -16,13 +16,7 @@ const cards = [
     titleKey: 'section2.titre1',
     descKey: 'section2.description1',
     tags: ['React', 'Django', 'NodeJS'],
-  },
-  {
-    icon: <FaImage size={18} />,
-    titleKey: 'section2.titre3',
-    descKey: 'section2.description3',
-    tags: ['Illustrator', 'Photoshop', 'Figma'],
-  },
+  }
 ];
 
 const Section2 = () => {
