@@ -1,16 +1,11 @@
 import React from 'react'
-import Astr from '../../img/Astr.png'
-import Afa from '../../img/AFA.png'
-import Archange from '../../img/Archange.png'
-import Cla from '../../img/Clarissa.png'
+
 import Pr1 from '../../img/Pr1.jpg'
 import Pr2 from '../../img/Pr2.jpg'
 import Pr3 from '../../img/Pr3.jpg'
 import Pr4 from '../../img/Pr4.jpg'
 import Pr5 from '../../img/Pr5.png'
 
-import AL from '../../img/AL.png'
-import Ombre from '../../img/Ombre.png'
 import { FaFigma, FaJava, FaJs, FaReact, FaNodeJs, FaCode, FaImage, FaShieldAlt, FaFileAlt, FaNetworkWired, FaLock } from "react-icons/fa";
 import { SiDjango, SiTailwindcss, SiReact } from "react-icons/si";
 import { motion } from "framer-motion";
