@@ -2,7 +2,7 @@ import React from 'react'
 import { motion } from "framer-motion";
 import MobileAnimation from '../MobileAnimation';
 import { useTranslation } from 'react-i18next';
-import { FaCode, FaImage, FaLock } from "react-icons/fa";
+import { FaCode, FaLock } from "react-icons/fa";
 
 const cards = [
   {
