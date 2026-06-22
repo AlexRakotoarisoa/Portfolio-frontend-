@@ -1,13 +1,11 @@
 import React from 'react'
-import { 
-  FaFigma, FaJava, FaJs, FaPython, FaPhp, FaReact, FaShieldAlt, 
+import {  FaJava, FaJs, FaPython, FaPhp, FaReact, FaShieldAlt, 
   FaServer, FaNetworkWired, FaKey, FaNodeJs, FaDocker, FaGitAlt 
 } from "react-icons/fa";
 import { PiFileCSharp } from "react-icons/pi";
 import { BiLogoTypescript, BiLogoPostgresql, BiNetworkChart } from "react-icons/bi";
 import { 
-  SiDjango, SiTailwindcss, SiMongodb, SiAdobephotoshop, 
-  SiAdobeillustrator, SiGnubash 
+  SiDjango, SiTailwindcss, SiMongodb, SiGnubash 
 } from "react-icons/si";
 import { FiKey } from "react-icons/fi";
 import { TbBrandMysql, TbBrandGithub } from "react-icons/tb";
@@ -61,14 +59,6 @@ const Section4 = () => {
         { icon: <TbBrandMysql />, label: 'MySQL' },
         { icon: <BiLogoPostgresql />, label: 'PostgreSQL' },
         { icon: <SiMongodb />, label: 'MongoDB' },
-      ]
-    },
-    {
-      title: t('section4.competence4'),
-      items: [
-        { icon: <SiAdobephotoshop />, label: 'Adobe Photoshop' },
-        { icon: <SiAdobeillustrator />, label: 'Adobe Illustrator' },
-        { icon: <FaFigma />, label: 'Figma' },
       ]
     },
     {
